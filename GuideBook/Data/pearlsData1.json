@@ -1,0 +1,84 @@
+{
+    "pearls" : [
+        {
+            "id": 308,
+            "name": "Jeti-Oguz",
+            "photo": "jetioguz",
+            "description": "In the Jeti-Oguz district of Issyk-Kul region, there are Jeti-Oguz blood red rocks, which remind aliases of seven bulls lying on the ground.\n\nAccording to the legend, long, long time ago there lived two warring khans. One of them had a beautiful wife. The second khan fell in love to a beautiful woman and stole her from his opponent. Between rulers began bloodshed war. The beauty husband demanded to return him beloved woman, otherwise he will come and destroy the invader.\n\nTricky khan began to think about, what he would do, to not give up to the enemy. One of his kins offered a terrible plan. He said that khan should kill the beauty, and her body deliver to her husband, because he didn't say, alive or dead he wanted to get his wife back. This plan liked evil Khan. He arranged seven days huge tois(local celebrations, feasts), killing one bull every day. When the seventh day came, the last bull was cut, and Khan killed the woman with his own hand.\n\nBut evil deeds were not impunity, and the sword of Justice was already brought over the evil ruler. When the blood of the murdered woman spat on the rocks, hot streams of water rushed into the Valley, destroying Khan and his surroundings. Since then the gorge, where the woman died, called Jeti-Oguz – \"Seven Bulls\"…",
+            "location" : {
+                "latitude": 42.424066106745094,
+                "longitude": 78.21081161891833,
+            },
+        },
+        {
+            "id": 3,
+            "name": "Altyn-Arashan",
+            "photo": "altynarashan",
+            "description": "Altyn Arashan (Golden Spa) is a valley and mountain resort near Karakol and Issyk Kul Lake, northeastern Kyrgyzstan. It lies along the trekking route from Teploklyuchenka (Ak-Suu). It is a hot spring development set in an alpine valley, containing the 5020 metre Pik Palatka in its southern part. It is said to \"include three groups of nitric thermals springs on the right side of the Arashan River, 20 km southeast of Karakol mountain, situated in a picturesque forest landscape at an altitude of 2350-2435 metres.\" The resort has numerous wooden sheds which contain hot sulfurous pools to cure various ailments. The resort is set in a botanical research area called the Arashan State Nature Reserve which has about 20 snow leopards and several bears.",
+            "location" : {
+                "latitude": 42.373330354348134,
+                "longitude": 78.61163155491049,
+            },
+        },
+        {
+            "id": 403,
+            "name": "Ruh-Ordo",
+            "photo": "ruhordo",
+            "description": "is a huge open-air complex located on the shore of Lake Issyk-Kul. The complex consists of ten museums; the “Kyrgyz art and culture Hall”, the house-museum of Aytmatov, picture and photo galleries, the “Knowledge Treasure trove”, “Sayakbay Kralayev’s arbour” etc. There are five chapels representing world confessions; Catholicism, Orthodoxy, Judaism, Buddhism, and Islam. They symbolize God as being the only one. Walking about the alleys of the cultural center you can see sculptures and a painting representing different techniques and genres of generations. Regularly the expositions are updated with new pieces. The tour about the centre of “Ruh Ordo” includes the history of Kyrgyz culture and art but the most interesting part of the day in the cultural centre is the interactive tour with national dances and songs, games and traditions...",
+            "location" : {
+                "latitude": 42.648132441078644,
+                "longitude": 77.0951363395805,
+            },
+        },
+        {
+            "id": 310,
+            "name": "Grigorievskoe Gorge",
+            "photo": "grigorievskoe",
+            "description": "Grigoriev Gorge is a long and picturesque gorge on the northern shore of the Lake Issyk-Kul, near the village of Grigorievka. The gorge is famous for its wooded slopes and three mountain lakes. Grigoriev Gorge is very popular among tourists, as well as the neighboring Semenov Gorge due to easy accessibility and stunning beauty. The gorge is located on the Küngey Ala-Too Ridge and it has a very interesting relief. Narrow areas here are suddenly replaced by fairly wide valleys and vice versa. A stormy river flows through the gorge and forms three small lakes with marshy banks. The slopes of the Grigorievsky Gorge are unusually wooded, and the forest zone begins in the lowest part. The gorge is one of Issyk Kul’s most visited sights. In summer, it is possible to stay in one of the many yurts in the area. There are many tourist routes to the neighboring Semenov Gorge, through the Kek-Bel Pass, as well as to the western part of the Kyungey Ala-Too Range and the Zailiisky Alatau Range.",
+            "location" : {
+                "latitude": 42.77207994360677,
+                "longitude": 77.4829517818352,
+            },
+        },
+        {
+            "id": 312,
+            "name": "\"Skazka\" Valley",
+            "photo": "skazka",
+            "description": "The \"Skazka\" Canyons located on the South coast of Issyk-Kul, between settlements Kajy-Say and Tamga, distance from Bishkek is about 270 km. The word \"skazka\" means fairy tale(from Russian) and the name was taken reasonably. Because when you come here, it is hard to believe that you are still on Earth and if you walk through numerous mazes of Canyon, the bottom of which is covered with ephedra bushes, imagination begins to draw on its relief fairy images of fantastic animals and monsters, castles, towers, faces of people. In sunny weather this place produces a special impression, as red begins to pour different shades. Then it begins to seem that you are in a wonderful country that opens all new beauty. In rainy weather or during strong winds, the relief of Canyon changes significantly, and, coming here again, you can see quite other images and figures. Everything resembles decorations of some fantastic movie, actions of that occurs on some other planet.",
+            "location" : {
+                "latitude": 42.160308,
+                "longitude": 77.359611,
+            },
+        },
+        {
+            "id": 311,
+            "name": "Ala-Kul Lake",
+            "photo": "alakul",
+            "description": "Ala Köl or Ala-Kul (Kyrgyz: Алакөл) is a rock-dammed lake in the Terskey Alatau mountain range in the Ak-Suu District of the Issyk-Kul Region in Kyrgyzstan. It lies at an altitude of approximately 3,560 metres (11,680 ft).  The lake is already thought to be reported in the account given by Rubruquis of his voyage to the Qaraqorum, but he thinks it to be an inner sea, the oriental end of the Lake Balkach. He gives an approximate description of the area and mentions the winds, which are \"so strong that people do not traverse the lake without great peril.\"  A Russian traveller named Putimtsoff was the first to knowingly visit the lake in 1811. He gave a good description of it, mentioning rocks of different colours in the lake, and the furious winds blowing around the lake. Thirty years later Alexander Schrenk explored the lake and its surroundings.  Literally, the name Ala-kul would mean 'variegated lake,' although it probably takes its name from the Ala-Тoo mountains lying further north",
+            "location" : {
+                "latitude": 42.31703855950247,
+                "longitude": 78.53626011828722,
+            },
+        },
+        {
+            "id": 501,
+            "name": "Tuz-Kul Lake",
+            "photo": "tuzkul",
+            "description": "Salt Lake (also Dead Lake, Tuz-Köl, Kara-Köl) is a small lake on the southern shore of Lake Issyk-Kul, notable for its high concentration of salt in the water, as well as healing mud on the banks and bottom of the lake. A huge percentage of water salinity places the lake on a par with the Dead Sea in Israel or the Great Salt Lake in the US, but on a smaller scale. For example, you can relax in the water without exerting any effort at all. Beware of water getting into your eyes, because there will be discomfort. The shore of the lake is covered with curative clay of different colors, as well as with sharp crystals of salt, which are formed from the drying out of water. The size of the lake is very small: the length of the coastline is 1.5 km, and the depth is 11m. Despite its very small size, because of its salinity, it does not freeze even in winter. Paradoxically, but very popular now, this lake was almost unknown until the 2000s, and more or less only started being visited by tourists in 2010. The lake is very close to the coastline of Issyk-Kul – just 400 meters away. The area around the lake is very picturesque: dried up hills of red and white sand, a large bay and a panorama of the Terskey Ala-Too Range",
+            "location" : {
+                "latitude": 42.25592536494439,
+                "longitude": 76.7514735176554,
+            },
+        },
+        {
+            "id": 402,
+            "name": "Petroglyphs Museum",
+            "photo": "petrogliph",
+            "description": "Cholpon-Ata is the main vacation resort in Issyk Kul region, located 265 km east of Bishkek, Kyrgyzstan’s capital. With a splendid background made of high snowy mountains and one of the world’s highest mountain lakes, and a collection of petroglyphs dating back to more than 4,000 years ago, Cholpon-Ata is a must-see during your stay in Kyrgyzstan.  Cholpon-Ata’s petroglyphs lay at the north-west of the city. This open-air museum, sometimes nicknamed “the stone garden”, is a very important historical site. It is located on a territory of 42 ha (104 acres) that includes both petroglyphs, images carved on stones, and prehistoric structures and monuments.",
+            "location" : {
+                "latitude": 42.65804497156683,
+                "longitude": 77.05681735492242,
+            },
+        },
+    ],
+}

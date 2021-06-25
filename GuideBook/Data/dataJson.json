@@ -1,0 +1,254 @@
+{
+    "cities" : [
+        {
+            "id": 0,
+            "name": "Bishkek",
+            "photo": "bishkek",
+            "description": "The capital and the largest city",
+            "location" : {
+                "latitude": 42.8746,
+                "longitude": 74.5698,
+            },
+            "sights": [
+                {
+                    "id": 100,
+                    "name": "History Museum",
+                    "photo": "alatoo",
+                    "description": "",
+                    "location" : {
+                        "latitude": 42.87556630597272,
+                        "longitude": 74.60430553004488,
+                    },
+                    
+                },
+                {
+                    "id": 101,
+                    "name": "Victory Square",
+                    "photo": "victory",
+                    "description": "",
+                    "location" : {
+                        "latitude": 42.87925863497311,
+                        "longitude": 74.61619516905287,
+                    },
+                    
+                },
+                {
+                    "id": 102,
+                    "name": "Panorama",
+                    "photo": "panorama",
+                    "description": "",
+                    "location" : {
+                        "latitude": 42.7994899682889,
+                        "longitude": 74.64530766113444,
+                    },
+                    
+                },
+                {
+                    "id": 103,
+                    "name": "Flag",
+                    "photo": "flag",
+                    "description": "",
+                    "location" : {
+                        "latitude": 42.79724152898496,
+                        "longitude": 74.60627795564864,
+                    },
+                    
+                },
+                {
+                    "id": 108,
+                    "name": "Museum of Art",
+                    "photo": "artmuseum",
+                    "description": "",
+                    "location" : {
+                        "latitude": 42.87925338142815,
+                        "longitude": 74.61102405347779,
+                    },
+                    
+                },
+                {
+                    "id": 109,
+                    "name": "Erkindik Boulevard",
+                    "photo": "erkindik",
+                    "description": "",
+                    "location" : {
+                        "latitude": 42.79724152898496,
+                        "longitude": 74.60627795564864,
+                    },
+                    
+                },
+                {
+                    "id": 110,
+                    "name": "Philarmony",
+                    "photo": "philarmony",
+                    "description": "",
+                    "location" : {
+                        "latitude": 42.878048038369066,
+                        "longitude": 74.5876139684515,
+                    },
+                    
+                },
+                {
+                    "id": 113,
+                    "name": "Central Mosque",
+                    "photo": "mosque",
+                    "description": "",
+                    "location" : {
+                        "latitude": 42.88371079769954,
+                        "longitude": 74.61978805238152,
+                    },
+                    
+                },
+                {
+                    "id": 114,
+                    "name": "Orthodox Church",
+                    "photo": "church",
+                    "description": "",
+                    "location" : {
+                        "latitude": 42.88461383166088,
+                        "longitude": 74.59738620085535,
+                    },
+                },
+                {
+                    "id": 115,
+                    "name": "Ala-Archa Gorge",
+                    "photo": "alarcha",
+                    "description": "",
+                    "location" : {
+                        "latitude": 42.64703159243351,
+                        "longitude": 74.48555399725117,
+                    },
+                },
+                {
+                    "id": 116,
+                    "name": "Chunkurchak Gorge",
+                    "photo": "chunkurchak",
+                    "description": "",
+                    "location" : {
+                        "latitude": 42.63983244362878,
+                        "longitude": 74.62840936670705,
+                    },
+                },
+            ],
+        },
+        {
+            "id": 1,
+            "name": "Osh",
+            "photo": "osh",
+            "description": "The second largest and known as the \"capital of the south\"",
+            "location" : {
+                "latitude": 40.5140,
+                "longitude": 72.8161,
+            },
+            "sights": [
+                {
+                    "id": 104,
+                    "name": "Sulaiman-Too",
+                    "photo": "sulaiman",
+                    "description": "",
+                    "location" : {
+                        "latitude": 40.53056676749644,
+                        "longitude": 72.78519092750467,
+                    },
+                    
+                },
+                {
+                    "id": 105,
+                    "name": "Tomb of Asaf ibn Barkhiya",
+                    "photo": "asaftomb",
+                    "description": "",
+                    "location" : {
+                        "latitude": 40.529528,
+                        "longitude": 72.791972,
+                    },
+                    
+                },
+            ],
+        },
+        {
+            "id": 2,
+            "name": "karakol",
+            "photo": "karakol",
+            "description": "Is the administrative capital of Issyk-Kul Region",
+            "location" : {
+                "latitude": 42.4782,
+                "longitude": 78.3956,
+            },
+            "sights": [
+                {
+                    "id": 120,
+                    "name": "Holy Trinity Cathedral",
+                    "photo": "trinity",
+                    "description": "",
+                    "location" : {
+                        "latitude": 42.48924570913596,
+                        "longitude": 78.39475127025686,
+                    },
+                },
+                {
+                    "id": 111,
+                    "name": "Dungan Mosque",
+                    "photo": "dungan",
+                    "description": "",
+                    "location" : {
+                        "latitude": 42.497528788180894,
+                        "longitude": 78.39053829354968,
+                    },
+                },
+                {
+                    "id": 112,
+                    "name": "Przhevalsky museum",
+                    "photo": "przhevalsky",
+                    "description": "",
+                    "location" : {
+                        "latitude": 42.581432271737164,
+                        "longitude": 78.32152487640693,
+                    },
+                },
+            ],
+        },
+        {
+            "id": 3,
+            "name": "Jalal-Abad",
+            "photo": "jalal-abad",
+            "description": "is the administrative and economic centre of Jalal-Abad Region in southwestern Kyrgyzstan",
+            "location" : {
+                "latitude": 40.9332,
+                "longitude": 72.9815,
+            },
+            "sights": [],
+        },
+        {
+            "id": 4,
+            "name": "Naryn",
+            "photo": "naryn",
+            "description": "Is the administrative centre of Naryn Region",
+            "location" : {
+                "latitude": 41.4996,
+                "longitude": 75.9921,
+            },
+            "sights": [],
+        },
+        {
+            "id": 5,
+            "name": "Talas",
+            "photo": "talas",
+            "description": "Is the administrative centre of Talas Region",
+            "location" : {
+                "latitude": 42.524801,
+                "longitude": 72.250041,
+            },
+            "sights": [],
+        },
+        {
+            "id": 6,
+            "name": "Batken",
+            "photo": "batken",
+            "description": "Is the administrative centre of Batken Region",
+            "location" : {
+                "latitude": 40.0572,
+                "longitude": 70.8218,
+            },
+            "sights": [],
+        },
+    ]
+}
