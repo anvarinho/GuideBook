@@ -13,9 +13,6 @@ struct AboutVisa: View {
        Residents of the EAEU countries (Russia, Kazakhstan, Belarus and Armenia) can visit Kyrgyzstan with an internal passport.
        Getting to Kyrgyzstan is also quite easy, despite the apparent remoteness of the country. Daily direct flights to Bishkek are operated from almost all airports in major Russian cities (Moscow, St. Petersburg, Yekaterinburg, Novosibirsk, Irkutsk), as well as from airports in Istanbul (the most popular option for European residents), Dubai and Beijing. The average ticket price rarely exceeds 20 thousand soms ($300), on average, the ticket will cost you 10-12 thousand soms ($100-150)
        In addition to air travel, you can get to Kyrgyzstan by train. Long-distance trains come to Bishkek from many Russian cities, including Moscow. Of course, you can also enter Kyrgyzstan by car, through the Kazakh, Uzbek, Tajik and Chinese borders.
-
-       (Some data may differ due to coronavirus)
-
         
     """
     var text2 = """
@@ -113,11 +110,19 @@ struct AboutVisa: View {
                             .font(.system(size: 24, weight: .bold, design: .rounded))
                             .shadow(color: .black, radius: 3, x: 3, y: 3)
                         Text(text)
-                            .padding()
+                            .padding(.horizontal)
                             .foregroundColor(.orange)
                             .font(.system(size: 15, weight: .bold, design: .rounded))
                             .multilineTextAlignment(.leading)
                             .shadow(color: .black, radius: 2, x: 2, y: 2)
+                        Link(destination: URL(string: "https://kg.usembassy.gov/covid-19-information/")!, label: {
+                            Text("Some data may vary due to coronavirus, go to check").underline()
+                                .padding(.horizontal)
+                                .foregroundColor(.purple)
+                                .font(.system(size: 15, weight: .bold, design: .rounded))
+                                .multilineTextAlignment(.leading)
+                                .shadow(color: .black, radius: 2, x: 2, y: 2)
+                        })
                         Text(text2)
                             .padding()
                             .foregroundColor(.orange)

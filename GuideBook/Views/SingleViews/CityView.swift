@@ -26,6 +26,18 @@ struct CityView: View {
                 .overlay(RoundedRectangle(cornerRadius: 12).stroke(lineWidth: 1).foregroundColor(.orange))
                 .frame(maxWidth: side)
             VStack{
+                 HStack{
+                     if city.id == 0{
+                         WeatherBish()
+                             .padding(.top, 3)
+                             .padding(.leading, 20)
+                         
+                     }
+                     Spacer()
+                 }
+                 Spacer()
+             }
+            VStack{
                 VStack{
                     Text(city.name.capitalized)
                         .font(.system(size: 20, weight: .bold, design: .rounded))

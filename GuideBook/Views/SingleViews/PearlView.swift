@@ -25,6 +25,18 @@ struct PearlView: View {
                 .cornerRadius(12)
                 .overlay(RoundedRectangle(cornerRadius: 12).stroke(lineWidth: 1).foregroundColor(.orange))
                 .padding(2)
+           VStack{
+                HStack{
+                    if pearl.id == 313{
+                        WeatherView()
+                            .padding(.top)
+                            .padding(.leading)
+                        
+                    }
+                    Spacer()
+                }
+                Spacer()
+            }
             VStack{
                 Text(pearl.name.capitalized)
                     .font(.system(size: 20, weight: .bold, design: .rounded))

@@ -33,6 +33,10 @@
 		E073EBF9267E0771005EF318 /* AboutVisa.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073EBF8267E0771005EF318 /* AboutVisa.swift */; };
 		E073EBFC268074CF005EF318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E073EBFB268074CF005EF318 /* LaunchScreen.storyboard */; };
 		E073EBFF2680771A005EF318 /* LaunchScreenAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073EBFE26807719005EF318 /* LaunchScreenAnimation.swift */; };
+		E0B5A523268891CD00E516B6 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B5A522268891CD00E516B6 /* WeatherModel.swift */; };
+		E0B5A5262688920B00E516B6 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B5A5252688920B00E516B6 /* WeatherViewModel.swift */; };
+		E0B5A5292688928E00E516B6 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B5A5282688928E00E516B6 /* WeatherView.swift */; };
+		E0B5A5302689781800E516B6 /* WeatherBish.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B5A52F2689781700E516B6 /* WeatherBish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +68,10 @@
 		E073EBF8267E0771005EF318 /* AboutVisa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVisa.swift; sourceTree = "<group>"; };
 		E073EBFB268074CF005EF318 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E073EBFE26807719005EF318 /* LaunchScreenAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenAnimation.swift; sourceTree = "<group>"; };
+		E0B5A522268891CD00E516B6 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		E0B5A5252688920B00E516B6 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		E0B5A5282688928E00E516B6 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		E0B5A52F2689781700E516B6 /* WeatherBish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBish.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,7 @@
 				E06F3065267DBEFE00D7BA1F /* ViewModels */,
 				E06F3078267DC24000D7BA1F /* LaunchScreens */,
 				E06F305B267DBD7800D7BA1F /* Data */,
+				E0B5A5122688826F00E516B6 /* Weather */,
 				E06F304F267DBAC900D7BA1F /* Assets.xcassets */,
 				E06F3054267DBACA00D7BA1F /* Info.plist */,
 				E06F3051267DBACA00D7BA1F /* Preview Content */,
@@ -223,6 +232,17 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
+		E0B5A5122688826F00E516B6 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				E0B5A522268891CD00E516B6 /* WeatherModel.swift */,
+				E0B5A5252688920B00E516B6 /* WeatherViewModel.swift */,
+				E0B5A5282688928E00E516B6 /* WeatherView.swift */,
+				E0B5A52F2689781700E516B6 /* WeatherBish.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -299,13 +319,17 @@
 				E06F304E267DBAC100D7BA1F /* MainView.swift in Sources */,
 				E073EBE5267DE3AA005EF318 /* CitiesListView.swift in Sources */,
 				E073EBF6267E0705005EF318 /* NeedGuide.swift in Sources */,
+				E0B5A5262688920B00E516B6 /* WeatherViewModel.swift in Sources */,
 				E073EBF9267E0771005EF318 /* AboutVisa.swift in Sources */,
 				E06F308F267DD0DF00D7BA1F /* PearlDescription.swift in Sources */,
 				E073EBED267DF97F005EF318 /* TabBar.swift in Sources */,
 				E073EBDF267DE213005EF318 /* IKListView.swift in Sources */,
 				E06F3067267DBF1000D7BA1F /* ViewModel.swift in Sources */,
 				E073EBE2267DE2CE005EF318 /* BPlacesView.swift in Sources */,
+				E0B5A5302689781800E516B6 /* WeatherBish.swift in Sources */,
 				E073EBFF2680771A005EF318 /* LaunchScreenAnimation.swift in Sources */,
+				E0B5A523268891CD00E516B6 /* WeatherModel.swift in Sources */,
+				E0B5A5292688928E00E516B6 /* WeatherView.swift in Sources */,
 				E073EBF3267E067B005EF318 /* MenuView.swift in Sources */,
 				E06F307D267DC71D00D7BA1F /* BackgroundView.swift in Sources */,
 				E06F3072267DC00800D7BA1F /* City.swift in Sources */,
