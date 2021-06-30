@@ -14,8 +14,8 @@ class WeatherViewModel: ObservableObject{
     @Published var bishIcon = ""
     
     init() {
-        fetchWeather()
         fetchWeatherBish()
+        fetchWeather()
     }
     
     //api.openweathermap.org/data/2.5/weather?q=Bosteri&appid=12203a39a3f20b2e3d59ff3a6f23714b&units=metric
