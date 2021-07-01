@@ -28,7 +28,7 @@ struct PearlView: View {
            VStack{
                 HStack{
                     if pearl.id == 313{
-                        WeatherView()
+                        WeatherView(city: "Bosteri")
                             .padding(.top)
                             .padding(.leading)
                         

@@ -77,6 +77,7 @@ struct MainView: View {
                     .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading)))
             }
         }.onAppear(perform: animations)
+         .onAppear(perform: getWeather)
     }
     func animations(){
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
@@ -94,6 +95,11 @@ struct MainView: View {
                 animate[2].toggle()
             }
         }
+    }
+    
+    func getWeather(){
+        WeatherViewModel.instance.fetchWeather("Bishkek")
+        WeatherViewModel.instance.fetchWeather("Bosteri")
     }
 }
 

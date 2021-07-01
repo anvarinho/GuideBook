@@ -28,10 +28,10 @@ struct CityView: View {
             VStack{
                  HStack{
                      if city.id == 0{
-                         WeatherBish()
-                             .padding(.top, 3)
-                             .padding(.leading, 20)
-                         
+                         WeatherView(city: "Bishkek")
+                             .padding(.top, -4)
+                             .padding(.leading, 26)
+                             .scaleEffect(1.4)
                      }
                      Spacer()
                  }

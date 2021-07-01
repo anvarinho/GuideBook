@@ -36,7 +36,6 @@
 		E0B5A523268891CD00E516B6 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B5A522268891CD00E516B6 /* WeatherModel.swift */; };
 		E0B5A5262688920B00E516B6 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B5A5252688920B00E516B6 /* WeatherViewModel.swift */; };
 		E0B5A5292688928E00E516B6 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B5A5282688928E00E516B6 /* WeatherView.swift */; };
-		E0B5A5302689781800E516B6 /* WeatherBish.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B5A52F2689781700E516B6 /* WeatherBish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,7 +70,6 @@
 		E0B5A522268891CD00E516B6 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		E0B5A5252688920B00E516B6 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		E0B5A5282688928E00E516B6 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
-		E0B5A52F2689781700E516B6 /* WeatherBish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBish.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,7 +236,6 @@
 				E0B5A522268891CD00E516B6 /* WeatherModel.swift */,
 				E0B5A5252688920B00E516B6 /* WeatherViewModel.swift */,
 				E0B5A5282688928E00E516B6 /* WeatherView.swift */,
-				E0B5A52F2689781700E516B6 /* WeatherBish.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -326,7 +323,6 @@
 				E073EBDF267DE213005EF318 /* IKListView.swift in Sources */,
 				E06F3067267DBF1000D7BA1F /* ViewModel.swift in Sources */,
 				E073EBE2267DE2CE005EF318 /* BPlacesView.swift in Sources */,
-				E0B5A5302689781800E516B6 /* WeatherBish.swift in Sources */,
 				E073EBFF2680771A005EF318 /* LaunchScreenAnimation.swift in Sources */,
 				E0B5A523268891CD00E516B6 /* WeatherModel.swift in Sources */,
 				E0B5A5292688928E00E516B6 /* WeatherView.swift in Sources */,

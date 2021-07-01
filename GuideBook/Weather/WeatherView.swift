@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct WeatherView: View {
-    private let defaultIcon = "" //   "sparkles"
+    private let defaultIcon = ""//   "sparkles"
+    let city : String
     private let iconMap = [
         "Drizzle" : "cloud.drizzle",
         "Thunderstorm" : "cloud.bolt.rain",
@@ -17,19 +18,25 @@ struct WeatherView: View {
         "Clear" : "sun.min",
         "Clouds" : "cloud",
     ]
-    @StateObject var vm = WeatherViewModel()
+    
+    @AppStorage("bishkekTemp") var bishkekTemp = ""
+    @AppStorage("bishkekIcon") var bishkekIcon = ""
+    @AppStorage("bosteriTemp") var bosteriTemp = ""
+    @AppStorage("bosteriIcon") var bosteriIcon = ""
+    
+    var temp: String{ city == "Bishkek" ? bishkekTemp : bosteriTemp }
+    var icon: String{ city == "Bishkek" ? bishkekIcon : bosteriIcon }
     var body: some View{
         HStack{
-            Text(vm.title)
-                .font(.system(size: 24, weight: .bold, design: .rounded))
+            Text(temp)
+                .font(.system(size: 24, weight: .semibold, design: .rounded))
                 .shadow(color: .black, radius: 1, x: 1, y: 1)
-            Image(systemName: iconMap[vm.icon] ?? defaultIcon)
-                .resizable()
-                .frame(width: 37, height: 37)
+            Image(systemName: iconMap[icon] ?? defaultIcon)
+                .scaleEffect(1.6)
                 .shadow(color: .black, radius: 1, x: 1, y: 1)
-        }.foregroundColor(.purple)
+        }.foregroundColor(city == "Bishkek" ? .green :.purple)
         .padding(.top, 7)
-        .opacity(vm.bishTemp == "0" && vm.icon == "" ? 0 : 1)
+        .opacity(temp == "0" && icon == "" ? 0 : 1)
     }
 }
 
