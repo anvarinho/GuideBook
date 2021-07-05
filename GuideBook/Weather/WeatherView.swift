@@ -34,9 +34,10 @@ struct WeatherView: View {
             Image(systemName: iconMap[icon] ?? defaultIcon)
                 .scaleEffect(1.6)
                 .shadow(color: .black, radius: 1, x: 1, y: 1)
-        }.foregroundColor(city == "Bishkek" ? .green :.purple)
+        }.foregroundColor(icon == "Clear" ? .orange : icon == "Snow" ? .white : .gray)
         .padding(.top, 7)
         .opacity(temp == "0" && icon == "" ? 0 : 1)
+        .animation(.spring())
     }
 }
 

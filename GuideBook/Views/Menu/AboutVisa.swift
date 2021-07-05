@@ -100,18 +100,18 @@ struct AboutVisa: View {
     @Environment(\.presentationMode) var presentationMode
     var body: some View {
         ZStack {
-            LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.1098039216, green: 0.462745098, blue: 0.5607843137, alpha: 1)), Color(#colorLiteral(red: 0.01176470588, green: 0.1450980392, blue: 0.2235294118, alpha: 1))]), startPoint: .topLeading, endPoint: .bottomTrailing).ignoresSafeArea()
+            BackgroundView()
             VStack {
                 ScrollView(.vertical,showsIndicators: false) {
                     VStack {
                         Text("About Visa")
-                            .foregroundColor(.orange)
+                            .foregroundColor(Color(#colorLiteral(red: 0.9803921569, green: 0.5725490196, blue: 0.1215686275, alpha: 1)))
                             .padding()
                             .font(.system(size: 24, weight: .bold, design: .rounded))
                             .shadow(color: .black, radius: 3, x: 3, y: 3)
                         Text(text)
                             .padding(.horizontal)
-                            .foregroundColor(.orange)
+                            .foregroundColor(Color(#colorLiteral(red: 0.9803921569, green: 0.5725490196, blue: 0.1215686275, alpha: 1)))
                             .font(.system(size: 15, weight: .bold, design: .rounded))
                             .multilineTextAlignment(.leading)
                             .shadow(color: .black, radius: 2, x: 2, y: 2)
@@ -125,7 +125,7 @@ struct AboutVisa: View {
                         })
                         Text(text2)
                             .padding()
-                            .foregroundColor(.orange)
+                            .foregroundColor(Color(#colorLiteral(red: 0.9803921569, green: 0.5725490196, blue: 0.1215686275, alpha: 1)))
                             .font(.system(size: 15, weight: .bold, design: .rounded))
                             .multilineTextAlignment(.leading)
                             .shadow(color: .black, radius: 2, x: 2, y: 2)
@@ -133,7 +133,7 @@ struct AboutVisa: View {
                 }
             }
             VStack{
-                Image(systemName: "minus")
+                Image(systemName: "chevron.compact.down")
                     .scaleEffect(3)
                     .offset(y: 10)
                     .foregroundColor(.black)

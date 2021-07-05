@@ -19,7 +19,6 @@ class WeatherViewModel: ObservableObject{
     @AppStorage("bosteriTemp") var bosteriTemp = ""
     @AppStorage("bosteriIcon") var bosteriIcon = ""
     
-    
     //api.openweathermap.org/data/2.5/weather?q=Bosteri&appid=12203a39a3f20b2e3d59ff3a6f23714b&units=metric
     func fetchWeather(_ city: String){
         guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(city)&appid=12203a39a3f20b2e3d59ff3a6f23714b&units=metric") else { return }

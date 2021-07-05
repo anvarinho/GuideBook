@@ -59,9 +59,7 @@ struct MapView: View {
                             vm.showMap.toggle()
                         }
                     }, label: {
-                        Image(systemName: "ellipsis")
-                            .scaleEffect(2)
-                            .padding()
+                        ButtonView(text: "Back")
                     })
                 }.padding(.horizontal)
                 Spacer()

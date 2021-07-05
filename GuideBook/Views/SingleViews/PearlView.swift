@@ -23,7 +23,7 @@ struct PearlView: View {
                 .resizable()
                 .scaledToFit()
                 .cornerRadius(12)
-                .overlay(RoundedRectangle(cornerRadius: 12).stroke(lineWidth: 1).foregroundColor(.orange))
+                .overlay(RoundedRectangle(cornerRadius: 12).stroke(lineWidth: 1).foregroundColor(Color(#colorLiteral(red: 0.9803921569, green: 0.5725490196, blue: 0.1215686275, alpha: 1))))
                 .padding(2)
            VStack{
                 HStack{
@@ -40,7 +40,7 @@ struct PearlView: View {
             VStack{
                 Text(pearl.name.capitalized)
                     .font(.system(size: 20, weight: .bold, design: .rounded))
-                    .foregroundColor(.orange)
+                    .foregroundColor(Color(#colorLiteral(red: 0.9803921569, green: 0.5725490196, blue: 0.1215686275, alpha: 1)))
                     .shadow(color: .black, radius: 1, x: 1, y: 1)
                     .padding(5)
                     .background(BackgroundView()).opacity(0.8)

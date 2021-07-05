@@ -16,9 +16,7 @@ struct MainView: View {
             BackgroundView()
             VStack{
                 HStack {
-                    Text("Cities".uppercased())
-                        .foregroundColor(.orange)
-                        .font(.system(size: 26, weight: .bold, design: .rounded))
+                    NameText(text: "Cities")
                         .scaleEffect(animate[0] ? 1 : 0.3)
                         .offset(x: animate[0] ? 0 : -300)
                     Spacer()
@@ -27,10 +25,7 @@ struct MainView: View {
                             vm.showInfo.toggle()
                         }
                     }, label:{
-                        Image(systemName: "ellipsis")
-                            .foregroundColor(.orange)
-                            .scaleEffect(2)
-                            .padding(.horizontal)
+                        ButtonView(text: "Menu")
                     })
                 }.padding(.horizontal)
                 .shadow(color: .black, radius: 3, x: 3, y: 3)
@@ -40,9 +35,7 @@ struct MainView: View {
                     .opacity(animate[0] ? 1 : 0)
                 
                 HStack {
-                    Text("Issyk-Kul Region".uppercased())
-                        .foregroundColor(.orange)
-                        .font(.system(size: 24, weight: .bold, design: .rounded))
+                    NameText(text: "Issyk-Kul Region")
                         .scaleEffect(animate[1] ? 1 : 0.3)
                         .opacity(animate[1] ? 1 : 0)
                         .offset(x: animate[1] ? 0 : -300)
@@ -56,15 +49,11 @@ struct MainView: View {
                     .opacity(animate[1] ? 1 : 0)
                 
                 HStack{
-                    Text("Beautiful places".uppercased())
-                        .foregroundColor(.orange)
-                        .font(.system(size: 24, weight: .bold, design: .rounded))
+                    NameText(text: "Beautiful places")
                         .scaleEffect(animate[2] ? 1 : 0.3)
                         .opacity(animate[2] ? 1 : 0)
                         .offset(x: animate[2] ? 0 : -300)
-                    
                     Spacer()
-                    
                 }.padding(.horizontal)
                 .shadow(color: .black, radius: 3, x: 3, y: 3)
                 
@@ -74,12 +63,13 @@ struct MainView: View {
             }
             if vm.showInfo{
                 MenuView()
-                    .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading)))
+                    .transition(.opacity)
             }
-        }.onAppear(perform: animations)
-         .onAppear(perform: getWeather)
+        }.onAppear(perform: animationsAndWeather)
     }
-    func animations(){
+    func animationsAndWeather(){
+        WeatherViewModel.instance.fetchWeather("Bishkek")
+        WeatherViewModel.instance.fetchWeather("Bosteri")
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             withAnimation(Animation.spring(response: 0.7, dampingFraction: 1, blendDuration: 0.5)){
                 animate[0].toggle()
@@ -95,11 +85,6 @@ struct MainView: View {
                 animate[2].toggle()
             }
         }
-    }
-    
-    func getWeather(){
-        WeatherViewModel.instance.fetchWeather("Bishkek")
-        WeatherViewModel.instance.fetchWeather("Bosteri")
     }
 }
 

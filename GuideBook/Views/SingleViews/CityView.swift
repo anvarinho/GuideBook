@@ -23,16 +23,23 @@ struct CityView: View {
                 .resizable()
                 .scaledToFit()
                 .cornerRadius(12)
-                .overlay(RoundedRectangle(cornerRadius: 12).stroke(lineWidth: 1).foregroundColor(.orange))
+                .overlay(RoundedRectangle(cornerRadius: 12).stroke(lineWidth: 1).foregroundColor(Color(#colorLiteral(red: 0.9803921569, green: 0.5725490196, blue: 0.1215686275, alpha: 1))))
                 .frame(maxWidth: side)
             VStack{
                  HStack{
-                     if city.id == 0{
-                         WeatherView(city: "Bishkek")
-                             .padding(.top, -4)
-                             .padding(.leading, 26)
-                             .scaleEffect(1.4)
-                     }
+                    VStack(alignment: .leading){
+                        if city.id == 0{
+                            WeatherView(city: "Bishkek")
+                                .padding(.top, -4)
+                                .padding(.leading, 26)
+                                .scaleEffect(1.4)
+                            BishkekTime()
+                                .padding(.top)
+                                .padding(.leading, 20)
+                                .foregroundColor(Color(#colorLiteral(red: 0.01176470588, green: 0.1450980392, blue: 0.2235294118, alpha: 1)))
+                                .font(.system(size: 20, weight: .bold, design: .rounded))
+                        }
+                    }
                      Spacer()
                  }
                  Spacer()
@@ -41,11 +48,11 @@ struct CityView: View {
                 VStack{
                     Text(city.name.capitalized)
                         .font(.system(size: 20, weight: .bold, design: .rounded))
-                        .foregroundColor(.orange)
+                        .foregroundColor(Color(#colorLiteral(red: 0.9803921569, green: 0.5725490196, blue: 0.1215686275, alpha: 1)))
                         .shadow(color: .black, radius: 1, x: 1, y: 1)
                     Text(city.description.capitalized)
                         .font(.system(size: 12, weight: .bold, design: .rounded))
-                        .foregroundColor(.orange)
+                        .foregroundColor(Color(#colorLiteral(red: 0.9803921569, green: 0.5725490196, blue: 0.1215686275, alpha: 1)))
                         .shadow(color: .black, radius: 1, x: 1, y: 1)
                 }
                 .padding(.horizontal)
