@@ -16,17 +16,18 @@ struct MainView: View {
             BackgroundView()
             VStack{
                 HStack {
-                    NameText(text: "Cities")
+                    NameOfList(text: "Cities")
                         .scaleEffect(animate[0] ? 1 : 0.3)
+                        .opacity(animate[0] ? 1 : 0)
                         .offset(x: animate[0] ? 0 : -300)
                     Spacer()
+                    Spacer()
                     Button(action: {
-                        withAnimation{
-                            vm.showInfo.toggle()
-                        }
-                    }, label:{
-                        ButtonView(text: "Menu")
+                        vm.showInfo.toggle()
+                    },label: {
+                        NavigationButton(text: "Menu")
                     })
+                //    ButtonView(action: vm.showInfo.toggle(), text: "Menu")
                 }.padding(.horizontal)
                 .shadow(color: .black, radius: 3, x: 3, y: 3)
                 
@@ -35,7 +36,7 @@ struct MainView: View {
                     .opacity(animate[0] ? 1 : 0)
                 
                 HStack {
-                    NameText(text: "Issyk-Kul Region")
+                    NameOfList(text: "Issyk-Kul Region")
                         .scaleEffect(animate[1] ? 1 : 0.3)
                         .opacity(animate[1] ? 1 : 0)
                         .offset(x: animate[1] ? 0 : -300)
@@ -49,7 +50,7 @@ struct MainView: View {
                     .opacity(animate[1] ? 1 : 0)
                 
                 HStack{
-                    NameText(text: "Beautiful places")
+                    NameOfList(text: "Beautiful places")
                         .scaleEffect(animate[2] ? 1 : 0.3)
                         .opacity(animate[2] ? 1 : 0)
                         .offset(x: animate[2] ? 0 : -300)

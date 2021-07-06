@@ -61,6 +61,16 @@
             },
         },
         {
+            "id": 314,
+            "name": "Hot Springs",
+            "photo": "spring",
+            "description": "All over the northern Coast of the Lake Issyk-Kul is located a lot of thermal natural sources.  Wellness sources are found on the southern shore of the Lake, as well as in Gorges and mountains in whole Issyk-Kul Region. Water in these sources is considered healing with increased mineral content, and the water temperature can reach 50 degrees .These places are popular among people suffering from bone joint problems or those who want to support their health the next year. Unlike Lake Issyk-Kul, the most favorable tourist season of which is the gap between the beginning of July until mid-September, thermal sources can be visited even in early March or late November...",
+            "location" : {
+                "latitude": 42.73181709072741,
+                "longitude": 77.82945177438575,
+            },
+        },
+        {
             "id": 311,
             "name": "Ala-Kul Lake",
             "photo": "alakul",

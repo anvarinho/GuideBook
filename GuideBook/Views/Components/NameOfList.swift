@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NameText: View {
+struct NameOfList: View {
     var text: String
     var body: some View {
         Text(text.uppercased())

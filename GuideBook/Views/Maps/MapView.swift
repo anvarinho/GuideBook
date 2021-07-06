@@ -47,7 +47,6 @@ struct MapView: View {
                                 .font(.title2)
                                 .foregroundColor(.red)
                         }
-                        
                     }
                 }
             }.ignoresSafeArea()
@@ -59,7 +58,7 @@ struct MapView: View {
                             vm.showMap.toggle()
                         }
                     }, label: {
-                        ButtonView(text: "Back")
+                        NavigationButton(text: "Back")
                     })
                 }.padding(.horizontal)
                 Spacer()

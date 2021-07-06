@@ -37,19 +37,7 @@ struct PearlDescription : View{
                         .shadow(color: .black, radius: 2, x: 2, y: 2)
                 }
             }
-            VStack{
-                Image(systemName: "chevron.compact.down")
-                    .scaleEffect(3)
-                    .offset(y: 10)
-                    .foregroundColor(.black)
-                    .opacity(0.8)
-                    .onTapGesture {
-                        withAnimation{
-                            presentationMode.wrappedValue.dismiss()
-                        }
-                    }
-                Spacer()
-            }
+            DismissButton()
         }
     }
 }

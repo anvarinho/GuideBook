@@ -18,17 +18,9 @@ struct BishkekTime: View {
     }
     
     var body: some View {
-        Text(timeNow)
+        Text(timeNow.lowercased())
             .onReceive(timer) { _ in
                 self.timeNow = dateFormatter.string(from: Date())
             }
-    }
-    
-}
-
-
-struct BishkekTime_Previews: PreviewProvider {
-    static var previews: some View {
-        BishkekTime()
     }
 }

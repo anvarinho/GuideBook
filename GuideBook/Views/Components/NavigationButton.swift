@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ButtonView: View {
+struct NavigationButton: View {
     var text: String
     var body: some View {
         ZStack{
@@ -18,11 +18,5 @@ struct ButtonView: View {
                 .font(.system(size: 20, weight: .bold, design: .rounded))
                 .foregroundColor(Color(#colorLiteral(red: 0.9803921569, green: 0.5725490196, blue: 0.1215686275, alpha: 1)))
         }
-    }
-}
-
-struct ButtonView_Previews: PreviewProvider {
-    static var previews: some View {
-        ButtonView(text: "")
     }
 }

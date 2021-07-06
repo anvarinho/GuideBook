@@ -71,19 +71,7 @@ struct CityDescription: View{
                     
                 }
             }
-            VStack{
-                Image(systemName: "chevron.compact.down")
-                    .scaleEffect(3)
-                    .offset(y: 10)
-                    .foregroundColor(.black)
-                    .opacity(0.8)
-                    .onTapGesture {
-                        withAnimation{
-                            presentationMode.wrappedValue.dismiss()
-                        }
-                    }
-                Spacer()
-            }
+            DismissButton()
         }
     }
 }
