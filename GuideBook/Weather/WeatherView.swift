@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct WeatherView: View {
-    private let defaultIcon = ""//   "sparkles"
+    private let defaultIcon = "thermometer"//   "sparkles"
     let city : String
     private let iconMap = [
-        "Drizzle" : "cloud.drizzle",
-        "Thunderstorm" : "cloud.bolt.rain",
-        "Rain" : "cloud.rain",
-        "Snow" : "cloud.snow",
-        "Clear" : "sun.min",
-        "Clouds" : "cloud",
+        "Drizzle" : "cloud.drizzle.fill",
+        "Thunderstorm" : "cloud.bolt.rain.fill",
+        "Rain" : "cloud.rain.fill",
+        "Snow" : "cloud.snow.fill",
+        "Clear" : "sun.max.fill",
+        "Clouds" : "cloud.sun.fill",
     ]
     
     @AppStorage("bishkekTemp") var bishkekTemp = ""
@@ -29,12 +29,11 @@ struct WeatherView: View {
     var body: some View{
         HStack{
             Text(temp)
-                .font(.system(size: 24, weight: .semibold, design: .rounded))
-                .shadow(color: .black, radius: 1, x: 1, y: 1)
             Image(systemName: iconMap[icon] ?? defaultIcon)
-                .scaleEffect(1.6)
-                .shadow(color: .black, radius: 1, x: 1, y: 1)
-        }.foregroundColor(icon == "Clear" ? .orange : icon == "Snow" ? .white : .gray)
+                .renderingMode(.original)
+        }.foregroundColor(.white)
+        .font(.system(size: 24, weight: .regular, design: .rounded))
+        .shadow(color: .black, radius: 1, x: 1, y: 1)
         .padding(.top, 7)
         .opacity(temp == "0" && icon == "" ? 0 : 1)
         .animation(.spring())

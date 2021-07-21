@@ -21,12 +21,17 @@ struct MenuView: View {
             BlurView(style: .systemThinMaterialDark).ignoresSafeArea()
             VStack {
                 HStack {
-                    Spacer()
+                    if !animate[1]{
+                        Spacer()
+                    }
                     Button(action:{
                         vm.showInfo.toggle()
                     }, label:{
-                        NavigationButton(text: "Back")
+                        NavigationButton(text:  animate[1] ? "Back" : "Menu")
                     })
+                    if animate[1]{
+                        Spacer()
+                    }
                 }.padding(.horizontal)
                 .shadow(color: .black, radius: 3, x: 3, y: 3)
                 Spacer()

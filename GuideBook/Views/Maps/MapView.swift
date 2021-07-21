@@ -52,7 +52,6 @@ struct MapView: View {
             }.ignoresSafeArea()
             VStack {
                 HStack{
-                    Spacer()
                     Button(action: {
                         withAnimation{
                             vm.showMap.toggle()
@@ -60,6 +59,7 @@ struct MapView: View {
                     }, label: {
                         NavigationButton(text: "Back")
                     })
+                    Spacer()
                 }.padding(.horizontal)
                 Spacer()
             }        }

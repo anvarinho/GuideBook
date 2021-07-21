@@ -36,8 +36,9 @@ struct CityView: View {
                             BishkekTime()
                                 .padding(.top)
                                 .padding(.leading, 20)
-                                .foregroundColor(Color(#colorLiteral(red: 0.01176470588, green: 0.1450980392, blue: 0.2235294118, alpha: 1)))
+                                .foregroundColor(.white)
                                 .font(.system(size: 20, weight: .bold, design: .rounded))
+                                .shadow(color: .black, radius: 1, x: 1, y: 1)
                         }
                     }
                      Spacer()

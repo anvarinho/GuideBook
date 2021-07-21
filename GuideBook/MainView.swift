@@ -69,8 +69,11 @@ struct MainView: View {
         }.onAppear(perform: animationsAndWeather)
     }
     func animationsAndWeather(){
+        //Weather requests:
         WeatherViewModel.instance.fetchWeather("Bishkek")
         WeatherViewModel.instance.fetchWeather("Bosteri")
+        
+        //Animations on opening:
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             withAnimation(Animation.spring(response: 0.7, dampingFraction: 1, blendDuration: 0.5)){
                 animate[0].toggle()

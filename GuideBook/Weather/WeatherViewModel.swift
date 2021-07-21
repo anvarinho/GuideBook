@@ -33,7 +33,6 @@ class WeatherViewModel: ObservableObject{
                     self.bosteriTemp = "\(Int(model?.main.temp ?? 0))"
                     self.bosteriIcon = model?.weather.first?.main ?? ""
                 }
-                
                 //print("Data received")
             }
         }.resume()
