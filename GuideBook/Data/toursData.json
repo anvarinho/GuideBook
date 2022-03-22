@@ -1,0 +1,1703 @@
+{
+    "tours" : [
+        {
+            "id" : 1,
+            "name" : "5 days",
+            "title" : "",
+            "price" : "700$",
+            "photo" : "tour2",
+            "days" : [
+                {
+                    "name" : "Highlights",
+                    "title" : "",
+                    "id" : 1,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "highlights1x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "highlights1x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "highlights1x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "highlights1x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 1,
+                            "name" : "Kok-Boru optional (Chon-Kemin)",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "Hotspring bathing (Issyk-Kul)",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "Night stay at the yurt (Son-Kol)",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "Acquaintance with the eagle and taygans(Bokonbaevo)",
+                        },
+                        {
+                            "id" : 5,
+                            "name" : "Waterfall (Son-Kol)",
+                        },
+                        {
+                            "id" : 6,
+                            "name" : "Horseback riding experience (Chon-Kemin)",
+                        },
+                        {
+                            "id" : 7,
+                            "name" : "Wild Nature, People and Cuisine! (Kyrgyzstan)",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 1",
+                    "title" : "Bishkek > Ala-Archa National Park > City tour 150km",
+                    "id" : 2,
+                    "photo" : [
+                        {
+                            "id" : 5,
+                            "name" : "day1x1x1",
+                        },
+                        {
+                            "id" : 6,
+                            "name" : "day1x1x2",
+                        },
+                        {
+                            "id" : 7,
+                            "name" : "day1x1x3",
+                        },
+                        {
+                            "id" : 8,
+                            "name" : "day1x1x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 8,
+                            "name" : "In the morning we will meet you at the airport and take you to your hotel",
+                        },
+                        {
+                            "id" : 9,
+                            "name" : "At lunchtime, we will go to Ala-Archa and enjoy beautiful nature",
+                        },
+                        {
+                            "id" : 10,
+                            "name" : "After Ala-Archа there will be a city tour, Osh bazaar (Asian market), and Ala-Too square where we will see the changing of the guard of honor performed by the national guard.",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 2",
+                    "title" : "Burana Tower > Konorchok canyons > Son-Kol lake 350km",
+                    "id" : 3,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day1x2x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day1x2x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day1x2x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day1x2x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 11,
+                            "name" : "In the morning we will drive to the Burana Tower, get acquainted with the Balbal stones and history",
+                        },
+                        {
+                            "id" : 12,
+                            "name" : "Later in the Boom Gorge, we will have hiking in the Konorchok / Kok-Moinok canyons",
+                        },
+                        {
+                            "id" : 13,
+                            "name" : "Let's stop at the panorama of the Orto-Tokoy reservoir, enjoy the views and take photos",
+                        },
+                        {
+                            "id" : 14,
+                            "name" : "In Kochkor, we can visit the craft shop of the Kochkor region",
+                        },
+                        {
+                            "id" : 15,
+                            "name" : "We will pass Kochkor and begin our ascent to the Son-Kol lake through the Kalmak-Ashuu pass",
+                        },
+                        {
+                            "id" : 16,
+                            "name" : "We spend the night in a yurt camp",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 3",
+                    "title" : "33-Parrots pass(Teskey-Torpok) > Ak-Say canyons > Bokonbaevo village 250km",
+                    "id" : 4,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day1x3x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day1x3x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day1x3x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day1x3x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 17,
+                            "name" : "Today we will descend from Son-Kolya along the Teskey-Torpok pass, which is famous for its serpentines",
+                        },
+                        {
+                            "id" : 18,
+                            "name" : "We will visit a gorgeous waterfall that flows from Son-Kol",
+                        },
+                        {
+                            "id" : 19,
+                            "name" : "Then we will drive through the territory of the Karatal Japyryk reserve along the Kara-Unkur gorge and the Dolon pass",
+                        },
+                        {
+                            "id" : 20,
+                            "name" : "We will drive again along the Orto-Tokoy reservoir, only this time along the southern side",
+                        },
+                        {
+                            "id" : 21,
+                            "name" : "If there is a chance, we will meet camels in the Kyzyl-Ompol area",
+                        },
+                        {
+                            "id" : 22,
+                            "name" : "If we keep up with the time, let's stop by the Ak-Sai canyons",
+                        },
+                        {
+                            "id" : 23,
+                            "name" : "In Bokonbaevo we will have a full-fledged program with Berkuts(Eagle) and Taigans (Kyrgyz greyhounds)",
+                        },
+                        {
+                            "id" : 24,
+                            "name" : "We will spend the night in a guest house in Bokonbaevo",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 4",
+                    "title" : "Skazka canyons > Karakol city > Cholpon-Ata city 300km",
+                    "id" : 5,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day1x4x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day1x4x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day1x4x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day1x4x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 25,
+                            "name" : "Today we will start with a visit to the Skazka Canyon",
+                        },
+                        {
+                            "id" : 26,
+                            "name" : "If time and effort allow you to enter the Barskoon Gorge (as the Swiss say, second Switzerland)",
+                        },
+                        {
+                            "id" : 27,
+                            "name" : "We will visit the Jeti-Oguz panorama",
+                        },
+                        {
+                            "id" : 28,
+                            "name" : "In Karakol, we will visit the Dungan Mosque, Orthodox Church, antique and eco-product shops",
+                        },
+                        {
+                            "id" : 29,
+                            "name" : "Today we will visit a trout farm and eat delicious fish!",
+                        },
+                        {
+                            "id" : 30,
+                            "name" : "We will try to visit the Semyonovskoye and Grigorievskoye gorges, the Kyrchyn valley where the 1-2-3 World Nomad Games were held",
+                        },
+                        {
+                            "id" : 31,
+                            "name" : "Note: We should make a PCR test in Karakol city, results will be ready the next day and can be taken in Bishkek!!!!",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 5",
+                    "title" : "Chon-Kemin natural park > Bishkek",
+                    "id" : 6,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day1x5x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day1x5x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day1x5x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day1x5x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 32,
+                            "name" : "In the morning we will swim in hot springs. If possible, we will try to do it in Karakol on the 4th Day",
+                        },
+                        {
+                            "id" : 33,
+                            "name" : "Then we will go to Chon-Kemin, ride horses, enjoy the nature of the Chon-Kemin natural park",
+                        },
+                        {
+                            "id" : 34,
+                            "name" : "After that, we will arrive in Bishkek and will have time to do those things that we could not do on the 1st day",
+                        },
+                        {
+                            "id" : 35,
+                            "name" : "Note: in Bishkek, we can make an urgent PCR test from 17: 00-21: 00 and receive the results at 02:00!!!!!!!",
+                        },
+                        {
+                            "id" : 36,
+                            "name" : "There are a lot of interesting places along the route and we can choose or delete this or that place at our discretion, based on time and effort",
+                        },
+                    ],
+                },
+                {
+                    "name" : "Standard cost for the 11-days tour in USD",
+                    "title" : "",
+                    "id" : 21,
+                    "photo" : [],
+                    "action" : [
+                        {
+                            "id" : 47,
+                            "name" : "2 persons = $1640 per person",
+                        },
+                        {
+                            "id" : 48,
+                            "name" : "3 persons = $1330 per person",
+                        },
+                        {
+                            "id" : 49,
+                            "name" : "4 persons = $1180 per person",
+                        },
+                        {
+                            "id" : 50,
+                            "name" : "5 persons = $1085 per person",
+                        },
+                        {
+                            "id" : 51,
+                            "name" : "6, 7, 8, 9, 10, 11, 12 persons = $1025 per person",
+                        },
+                    ],
+                },
+                {
+                    "name" : "Price includes:",
+                    "title" : "",
+                    "id" : 22,
+                    "photo" : [],
+                    "action" : [
+                        {
+                            "id" : 52,
+                            "name" : "All transportation, fuel, petrol",
+                        },
+                        {
+                            "id" : 53,
+                            "name" : "English speaking guide",
+                        },
+                        {
+                            "id" : 54,
+                            "name" : "Accomodation Hotel/Guesthouse/Yurt",
+                        },
+                        {
+                            "id" : 55,
+                            "name" : "Full board meals, Breakfast, Lunch, Dinner",
+                        },
+                        {
+                            "id" : 56,
+                            "name" : "Rent of horse",
+                        },
+                        {
+                            "id" : 57,
+                            "name" : "Horse Guide",
+                        },
+                        {
+                            "id" : 58,
+                            "name" : "Hotsprings in Altyn-Arashan",
+                        },
+                        {
+                            "id" : 59,
+                            "name" : "Eagle show and Archery in Bokoknbaevo",
+                        },
+                        {
+                            "id" : 60,
+                            "name" : "Park, Museum, Tickets",
+                        },
+                        {
+                            "id" : 61,
+                            "name" : "Mineral water",
+                        },
+                        {
+                            "id" : 62,
+                            "name" : "10 Masks, 1 sanitizer spray for each person",
+                        },
+                    ],
+                },
+                {
+                    "name" : "Price doesn't include:",
+                    "title" : "",
+                    "id" : 23,
+                    "photo" : [],
+                    "action" : [
+                        {
+                            "id" : 63,
+                            "name" : "Travel insurance",
+                        },
+                        {
+                            "id" : 64,
+                            "name" : "PCR test 20$",
+                        },
+                        {
+                            "id" : 65,
+                            "name" : "Air tickets",
+                        },
+                        {
+                            "id" : 66,
+                            "name" : "Visa",
+                        },
+                        {
+                            "id" : 67,
+                            "name" : "Alcohol",
+                        },
+                        {
+                            "id" : 68,
+                            "name" : "Tax of bank",
+                        },
+                        {
+                            "id" : 69,
+                            "name" : "Additional services not mentioned in the programm",
+                        },
+                    ],
+                },
+            ]
+        },
+        {
+            "id" : 2,
+            "name" : "11 days",
+            "title" : "",
+            "price" : "1900$",
+            "photo" : "tour1",
+            "days" : [
+                {
+                    "name" : "Highlights",
+                    "title" : "",
+                    "id" : 1,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "highlights2",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "highlights1",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "highlights3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "highlights4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 1,
+                            "name" : "Night stay at yurt",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "Acquaintance with the Burkut(eagle) and taygans(Kyrgyz dogs)",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "Waterfalls and Hotsprings",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "Horse riding experience",
+                        },
+                        {
+                            "id" : 5,
+                            "name" : "A LOT of Wild Wild Wild Nature and Honest Honest Honest People!!!",
+                        },
+                        {
+                            "id" : 6,
+                            "name" : "LIFE TIME/ UNFORGETTABLE MEMORIES",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 1",
+                    "title" : "Airport > Bishkek city",
+                    "id" : 2,
+                    "photo" : [
+                        {
+                            "id" : 5,
+                            "name" : "day1x1",
+                        },
+                        {
+                            "id" : 6,
+                            "name" : "day1x2",
+                        },
+                        {
+                            "id" : 7,
+                            "name" : "day1x3",
+                        },
+                        {
+                            "id" : 8,
+                            "name" : "day1x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 7,
+                            "name" : "Arrival to the airport, way to city, hotel accomodation, relax time",
+                        },
+                        {
+                            "id" : 8,
+                            "name" : "Visiting Burana Tower and horseback riding in Chon-Kemin national park",
+                        },
+                        {
+                            "id" : 9,
+                            "name" : "Night stay at hotel, meals at restaurant, cafe and night stay",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 2",
+                    "title" : "Bishkek city > Son-Kol lake",
+                    "id" : 3,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day2x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day2x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day2x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day2x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 10,
+                            "name" : "Visiting Burana Tower 1h",
+                        },
+                        {
+                            "id" : 11,
+                            "name" : "Konorchok canyons hiking 2-3h",
+                        },
+                        {
+                            "id" : 12,
+                            "name" : "Photo stop at Orto-Tokoy water resevoir 15m",
+                        },
+                        {
+                            "id" : 13,
+                            "name" : "Photo stops at Dolon pass, Kara-Unkur valley, Sary-Bel pass, Teskey-Torpok pass (33 parrots)",
+                        },
+                        {
+                            "id" : 14,
+                            "name" : "Night stay at yurt camp, meals at cafe and night stay",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 3",
+                    "title" : "Son-Kol lake > Tash-Rabat caravan saray",
+                    "id" : 4,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day3x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day3x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day3x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day3x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 15,
+                            "name" : "Photo stops at Moldo-Ashuu pass and MELS(Marks, Engels, Lenin, Stalin) pass",
+                        },
+                        {
+                            "id" : 16,
+                            "name" : "Night stay at yurt camp, meals at cafe and night stay",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 4",
+                    "title" : "Tash-Rabat caravan saray > Kel-Suu (Kol-Tetiri) lake",
+                    "id" : 5,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day4x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day4x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day4x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day4x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 17,
+                            "name" : "Photo stops at Arpa valley, Chatyr-Kol lake and Kok-Say valley",
+                        },
+                        {
+                            "id" : 18,
+                            "name" : "Horseback riding to Kel-Suu lake and back",
+                        },
+                        {
+                            "id" : 19,
+                            "name" : "Night stay at yurt camp, meals, night stays and picnic",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 5",
+                    "title" : "Kel-Suu lake > Naryn city",
+                    "id" : 6,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day5x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day5x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day5x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day5x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 20,
+                            "name" : "Photo stops at Ak-Say valley, Kyndy, Bosogo-Tor and Kyzyl-Bel passes",
+                        },
+                        {
+                            "id" : 21,
+                            "name" : "Night stay at hotel, meals, night stays and picnic",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 6",
+                    "title" : "Naryn city > Ak-Say canyons",
+                    "id" : 7,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day6x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day6x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day6x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day6x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 22,
+                            "name" : "Swimming at salt lake and photo stops on the way",
+                        },
+                        {
+                            "id" : 23,
+                            "name" : "Night stay at yurt camp, meals at cafe and night stay",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 7",
+                    "title" : "Ak-Say canyons > Barskoon gorge",
+                    "id" : 8,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day7x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day7x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day7x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day7x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 24,
+                            "name" : "Hiking at Ak-Say canyons 1h",
+                        },
+                        {
+                            "id" : 25,
+                            "name" : "Burkut(eagle), Taygans(Kyrgyz dogs) and Archery performance 1h",
+                        },
+                        {
+                            "id" : 26,
+                            "name" : "Hiking at the Shatyly valley 1h",
+                        },
+                        {
+                            "id" : 27,
+                            "name" : "Visiting Arabel/Sook pass",
+                        },
+                        {
+                            "id" : 28,
+                            "name" : "Hiking to Barskoon waterfalls",
+                        },
+                        {
+                            "id" : 29,
+                            "name" : "Night stay at glamping, meals at cafe, night stay and picnic",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 8",
+                    "title" : "Barskoon gorge > Altyn-Arashan",
+                    "id" : 9,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day8x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day8x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day8x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day8x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 30,
+                            "name" : "Visiting Jeti-Oguz red rock formations",
+                        },
+                        {
+                            "id" : 31,
+                            "name" : "Karakol city tour, Dungan mosque, Orthodox church",
+                        },
+                        {
+                            "id" : 32,
+                            "name" : "200% off-road to Altyn-Arashan valley on Soviet UAZ Buhanka",
+                        },
+                        {
+                            "id" : 33,
+                            "name" : "Hotsprings",
+                        },
+                        {
+                            "id" : 34,
+                            "name" : "Night stay at guesthouse, meals at cafe, restaurants and nightstay",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 9",
+                    "title" : "Altyn-Arashan > Ala-Kol lake",
+                    "id" : 10,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day9x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day9x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day9x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day9x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 35,
+                            "name" : "Horseback riding and hiking to Ala-Kol lake and back",
+                        },
+                        {
+                            "id" : 36,
+                            "name" : "Hotsprings",
+                        },
+                        {
+                            "id" : 37,
+                            "name" : "Night stay at guesthouse, meals at nightstay and picnic",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 10",
+                    "title" : "Altyn-Arashan > Jyrgalan valley",
+                    "id" : 11,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day10x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day10x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day10x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day10x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 38,
+                            "name" : "Turgenaksu valley",
+                        },
+                        {
+                            "id" : 39,
+                            "name" : "Chon-Ashuu pass",
+                        },
+                        {
+                            "id" : 40,
+                            "name" : "Enilchek city",
+                        },
+                        {
+                            "id" : 41,
+                            "name" : "Hotsprings",
+                        },
+                        {
+                            "id" : 42,
+                            "name" : "Jyrgalan valley",
+                        },
+                        {
+                            "id" : 43,
+                            "name" : "Night stay at guesthouse/yurt camp, meals at nightstay and picnic",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 11",
+                    "title" : "Jyrgalan valley > Bishkek city",
+                    "id" : 12,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day11x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day11x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day11x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day11x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 44,
+                            "name" : "Way to Bishkek",
+                        },
+                        {
+                            "id" : 45,
+                            "name" : "Night stay at hotel, meals at cafe and restaurant",
+                        },
+                        {
+                            "id" : 46,
+                            "name" : "Way to airport tonight",
+                        },
+                    ],
+                },
+                {
+                    "name" : "",
+                    "title" : "Standard cost for the 11-days tour in USD",
+                    "id" : 21,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "highlights1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "highlights2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "highlights3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "highlights4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 47,
+                            "name" : "2 persons = $1640 per person",
+                        },
+                        {
+                            "id" : 48,
+                            "name" : "3 persons = $1330 per person",
+                        },
+                        {
+                            "id" : 49,
+                            "name" : "4 persons = $1180 per person",
+                        },
+                        {
+                            "id" : 50,
+                            "name" : "5 persons = $1085 per person",
+                        },
+                        {
+                            "id" : 51,
+                            "name" : "6, 7, 8, 9, 10, 11, 12 persons = $1025 per person",
+                        },
+                    ],
+                },
+                {
+                    "name" : "",
+                    "title" : "Price includes:",
+                    "id" : 22,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "highlights1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "highlights2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "highlights3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "highlights4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 52,
+                            "name" : "All transportation, fuel, petrol",
+                        },
+                        {
+                            "id" : 53,
+                            "name" : "English speaking guide",
+                        },
+                        {
+                            "id" : 54,
+                            "name" : "Accomodation Hotel/Guesthouse/Yurt",
+                        },
+                        {
+                            "id" : 55,
+                            "name" : "Full board meals, Breakfast, Lunch, Dinner",
+                        },
+                        {
+                            "id" : 56,
+                            "name" : "Rent of horse",
+                        },
+                        {
+                            "id" : 57,
+                            "name" : "Horse Guide",
+                        },
+                        {
+                            "id" : 58,
+                            "name" : "Hotsprings in Altyn-Arashan",
+                        },
+                        {
+                            "id" : 59,
+                            "name" : "Eagle show and Archery in Bokoknbaevo",
+                        },
+                        {
+                            "id" : 60,
+                            "name" : "Park, Museum, Tickets",
+                        },
+                        {
+                            "id" : 61,
+                            "name" : "Mineral water",
+                        },
+                        {
+                            "id" : 62,
+                            "name" : "10 Masks, 1 sanitizer spray for each person",
+                        },
+                    ],
+                },
+                {
+                    "name" : "",
+                    "title" : "Price doesn't include:",
+                    "id" : 23,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "highlights1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "highlights2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "highlights3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "highlights4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 63,
+                            "name" : "Travel insurance",
+                        },
+                        {
+                            "id" : 64,
+                            "name" : "PCR test 20$",
+                        },
+                        {
+                            "id" : 65,
+                            "name" : "Air tickets",
+                        },
+                        {
+                            "id" : 66,
+                            "name" : "Visa",
+                        },
+                        {
+                            "id" : 67,
+                            "name" : "Alcohol",
+                        },
+                        {
+                            "id" : 68,
+                            "name" : "Tax of bank",
+                        },
+                        {
+                            "id" : 69,
+                            "name" : "Additional services not mentioned in the program",
+                        },
+                    ],
+                },
+            ]
+        },
+        {
+            "id" : 3,
+            "name" : "11 days",
+            "title" : "",
+            "price" : "1900$",
+            "photo" : "tour3",
+            "days" : [
+                {
+                    "name" : "Highlights",
+                    "title" : "",
+                    "id" : 1,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "highlights2",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "highlights1",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "highlights3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "highlights4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 1,
+                            "name" : "Night stay at yurt",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "Acquaintance with the Burkut(eagle) and taygans(Kyrgyz dogs)",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "Waterfalls and Hotsprings",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "Horse riding experience",
+                        },
+                        {
+                            "id" : 5,
+                            "name" : "A LOT of Wild Wild Wild Nature and Honest Honest Honest People!!!",
+                        },
+                        {
+                            "id" : 6,
+                            "name" : "LIFE TIME/ UNFORGETTABLE MEMORIES",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 1",
+                    "title" : "Airport > Bishkek city",
+                    "id" : 2,
+                    "photo" : [
+                        {
+                            "id" : 5,
+                            "name" : "day1x1",
+                        },
+                        {
+                            "id" : 6,
+                            "name" : "day1x2",
+                        },
+                        {
+                            "id" : 7,
+                            "name" : "day1x3",
+                        },
+                        {
+                            "id" : 8,
+                            "name" : "day1x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 7,
+                            "name" : "Arrival to the airport, way to city, hotel accomodation, relax time",
+                        },
+                        {
+                            "id" : 8,
+                            "name" : "Visiting Ala-Archa national park and city tour",
+                        },
+                        {
+                            "id" : 9,
+                            "name" : "Night stay at hotel, meals at restaurant, café and night stay",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 2",
+                    "title" : "Bishkek city > Sary-Chelek lakes",
+                    "id" : 3,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day2x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day2x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day2x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day2x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 10,
+                            "name" : "Photo stops at Too-Ashuu pass, Suusamyr valley, Ala-bel pass, Chychkan gorge, Toktogul water reservoir and Kurpsay hydro electro station",
+                        },
+                        {
+                            "id" : 11,
+                            "name" : "Night stay at guest house, meals at café and night stay",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 3",
+                    "title" : "Sary-Chelek lakes",
+                    "id" : 4,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day3x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day3x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day3x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day3x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 15,
+                            "name" : "Sary-Chelek lakes trekking",
+                        },
+                        {
+                            "id" : 16,
+                            "name" : "Night stay at guest house, meals at guesthouse and picnic",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 4",
+                    "title" : "Sary-Chelek lakes > Osh city",
+                    "id" : 5,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day4x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day4x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day4x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day4x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 17,
+                            "name" : "Visiting Uzgen minaret",
+                        },
+                        {
+                            "id" : 18,
+                            "name" : "Hiking to Sulayman-too",
+                        },
+                        {
+                            "id" : 19,
+                            "name" : "Night stay at hotel, meals at café and restaraunt",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 5",
+                    "title" : "Osh city > Pamir Alay(Sary-Mogol)",
+                    "id" : 6,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day5x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day5x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day5x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day5x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 20,
+                            "name" : "Photo stops at Taldyk-pass",
+                        },
+                        {
+                            "id" : 21,
+                            "name" : "Night stay at guest house, meals at café and night stays",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 6",
+                    "title" : "Pamir Alay",
+                    "id" : 7,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day6x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day6x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day6x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day6x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 22,
+                            "name" : "Trekking to the foot of the Lenin Peak",
+                        },
+                        {
+                            "id" : 23,
+                            "name" : "Night stay at guest house, meals at night stay and picnic",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 7",
+                    "title" : "Alay > Jalal-Abad city",
+                    "id" : 8,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day7x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day7x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day7x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day7x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 24,
+                            "name" : "Photo stops on the way to Jalal-Abad city",
+                        },
+                        {
+                            "id" : 25,
+                            "name" : "Night stay at at café and night stay",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 8",
+                    "title" : "Jalal-Abad city > Son-Kol lake",
+                    "id" : 9,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day8x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day8x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day8x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day8x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 30,
+                            "name" : "Photo stops at Kaldamoo pass, Kazarman town, Kara-Koo pass, Moldo-Ashuu pass",
+                        },
+                        {
+                            "id" : 31,
+                            "name" : "Night stay at yurt camp, meals at café and nightstay",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 9",
+                    "title" : "Son-Kol lake > Ak-Say canyons",
+                    "id" : 10,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day9x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day9x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day9x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day9x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 35,
+                            "name" : "Photo stops at Teskey-Torpok pass(33 parrots), Sary-Bel pass, Kara-Unkur valley, Dolon pass, Orto-Tokoy water reservoir",
+                        },
+                        {
+                            "id" : 36,
+                            "name" : "Hiking to Ak-Say canyons viewpoint in the evening or morning(sunset/sunrise)",
+                        },
+                        {
+                            "id" : 37,
+                            "name" : "Night stay at yurt camp, meals at café and nightstay",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 10",
+                    "title" : "Ak-Say canyons > Altyn-Arashan valley",
+                    "id" : 11,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day10x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day10x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day10x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day10x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 38,
+                            "name" : "Burkut(eagle), Taygan(Kyrgyz dogs) and archery performance and participating",
+                        },
+                        {
+                            "id" : 39,
+                            "name" : "Visiting Skazka(Fairy Tale) and Jeti-Oguz red rock formations",
+                        },
+                        {
+                            "id" : 40,
+                            "name" : "Enilchek city",
+                        },
+                        {
+                            "id" : 41,
+                            "name" : "Hotsprings",
+                        },
+                        {
+                            "id" : 42,
+                            "name" : "Jyrgalan valley",
+                        },
+                        {
+                            "id" : 43,
+                            "name" : "Night stay at guesthouse/yurt camp, meals at nightstay and picnic",
+                        },
+                    ],
+                },
+                {
+                    "name" : "DAY 11",
+                    "title" : "Jyrgalan valley > Bishkek city",
+                    "id" : 12,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "day11x1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "day11x2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "day11x3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "day11x4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 44,
+                            "name" : "Way to Bishkek",
+                        },
+                        {
+                            "id" : 45,
+                            "name" : "Night stay at hotel, meals at cafe and restaurant",
+                        },
+                        {
+                            "id" : 46,
+                            "name" : "Way to airport tonight",
+                        },
+                    ],
+                },
+                {
+                    "name" : "",
+                    "title" : "Standard cost for the 11-days tour in USD",
+                    "id" : 21,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "highlights1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "highlights2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "highlights3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "highlights4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 47,
+                            "name" : "2 persons = $1640 per person",
+                        },
+                        {
+                            "id" : 48,
+                            "name" : "3 persons = $1330 per person",
+                        },
+                        {
+                            "id" : 49,
+                            "name" : "4 persons = $1180 per person",
+                        },
+                        {
+                            "id" : 50,
+                            "name" : "5 persons = $1085 per person",
+                        },
+                        {
+                            "id" : 51,
+                            "name" : "6, 7, 8, 9, 10, 11, 12 persons = $1025 per person",
+                        },
+                    ],
+                },
+                {
+                    "name" : "",
+                    "title" : "Price includes:",
+                    "id" : 22,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "highlights1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "highlights2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "highlights3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "highlights4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 52,
+                            "name" : "All transportation, fuel, petrol",
+                        },
+                        {
+                            "id" : 53,
+                            "name" : "English speaking guide",
+                        },
+                        {
+                            "id" : 54,
+                            "name" : "Accomodation Hotel/Guesthouse/Yurt",
+                        },
+                        {
+                            "id" : 55,
+                            "name" : "Full board meals, Breakfast, Lunch, Dinner",
+                        },
+                        {
+                            "id" : 56,
+                            "name" : "Rent of horse",
+                        },
+                        {
+                            "id" : 57,
+                            "name" : "Horse Guide",
+                        },
+                        {
+                            "id" : 58,
+                            "name" : "Hotsprings in Altyn-Arashan",
+                        },
+                        {
+                            "id" : 59,
+                            "name" : "Eagle show and Archery in Bokoknbaevo",
+                        },
+                        {
+                            "id" : 60,
+                            "name" : "Park, Museum, Tickets",
+                        },
+                        {
+                            "id" : 61,
+                            "name" : "Mineral water",
+                        },
+                        {
+                            "id" : 62,
+                            "name" : "10 Masks, 1 sanitizer spray for each person",
+                        },
+                    ],
+                },
+                {
+                    "name" : "",
+                    "title" : "Price doesn't include:",
+                    "id" : 23,
+                    "photo" : [
+                        {
+                            "id" : 1,
+                            "name" : "highlights1",
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "highlights2",
+                        },
+                        {
+                            "id" : 3,
+                            "name" : "highlights3",
+                        },
+                        {
+                            "id" : 4,
+                            "name" : "highlights4",
+                        },
+                    ],
+                    "action" : [
+                        {
+                            "id" : 63,
+                            "name" : "Travel insurance",
+                        },
+                        {
+                            "id" : 64,
+                            "name" : "PCR test 20$",
+                        },
+                        {
+                            "id" : 65,
+                            "name" : "Air tickets",
+                        },
+                        {
+                            "id" : 66,
+                            "name" : "Visa",
+                        },
+                        {
+                            "id" : 67,
+                            "name" : "Alcohol",
+                        },
+                        {
+                            "id" : 68,
+                            "name" : "Tax of bank",
+                        },
+                        {
+                            "id" : 69,
+                            "name" : "Additional services not mentioned in the program",
+                        },
+                    ],
+                },
+            ]
+        },
+    ]
+}

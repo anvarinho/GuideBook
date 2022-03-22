@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81A5C66D26F0BCA5002E07FF /* TextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A5C66C26F0BCA4002E07FF /* TextAnimation.swift */; };
+		81A89BBC27EA7B5900AD66F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A89BBB27EA7B5900AD66F9 /* LaunchScreen.storyboard */; };
+		81AA186A27AAD1730094BA04 /* SightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA186927AAD1730094BA04 /* SightView.swift */; };
+		81AB614D26E61023006BDA2B /* ColorsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AB614C26E61023006BDA2B /* ColorsList.swift */; };
+		81AB614F26E610C4006BDA2B /* MapsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AB614E26E610C4006BDA2B /* MapsButton.swift */; };
+		81AB615226E611A2006BDA2B /* TourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AB615126E611A2006BDA2B /* TourView.swift */; };
+		81AB615426E612E6006BDA2B /* dataJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 81AB615326E612E6006BDA2B /* dataJson.json */; };
+		81AB615626E61364006BDA2B /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AB615526E61364006BDA2B /* TabButton.swift */; };
+		81AB615826E61420006BDA2B /* TourDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AB615726E61420006BDA2B /* TourDescription.swift */; };
+		81AB615A26E6145A006BDA2B /* ContactButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AB615926E6145A006BDA2B /* ContactButton.swift */; };
+		81AB615C26E6148A006BDA2B /* ListOfPictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AB615B26E6148A006BDA2B /* ListOfPictures.swift */; };
+		81AB615E26E614B1006BDA2B /* PearlCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AB615D26E614B1006BDA2B /* PearlCategories.swift */; };
+		81AB616026E614E2006BDA2B /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AB615F26E614E2006BDA2B /* CustomDivider.swift */; };
+		81AB616226E6155E006BDA2B /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AB616126E6155D006BDA2B /* MenuButton.swift */; };
+		81C0118526CFA81C00AC116A /* ColorSchemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0118426CFA81C00AC116A /* ColorSchemesView.swift */; };
+		81C0118726CFABB000AC116A /* Tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0118626CFABB000AC116A /* Tour.swift */; };
+		81C0118926CFACF100AC116A /* toursData.json in Resources */ = {isa = PBXBuildFile; fileRef = 81C0118826CFACF100AC116A /* toursData.json */; };
+		E0210305269408C400FCD75F /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0210304269408C400FCD75F /* DismissButton.swift */; };
+		E06F304C267DBAC100D7BA1F /* GuideBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F304B267DBAC100D7BA1F /* GuideBookApp.swift */; };
+		E06F304E267DBAC100D7BA1F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F304D267DBAC100D7BA1F /* MainView.swift */; };
+		E06F3050267DBACA00D7BA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06F304F267DBAC900D7BA1F /* Assets.xcassets */; };
+		E06F3053267DBACA00D7BA1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06F3052267DBACA00D7BA1F /* Preview Assets.xcassets */; };
+		E06F3060267DBE1100D7BA1F /* pearlsData.json in Resources */ = {isa = PBXBuildFile; fileRef = E06F305F267DBE1100D7BA1F /* pearlsData.json */; };
+		E06F3063267DBE5700D7BA1F /* pearlsData1.json in Resources */ = {isa = PBXBuildFile; fileRef = E06F3062267DBE5700D7BA1F /* pearlsData1.json */; };
+		E06F3067267DBF1000D7BA1F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F3066267DBF1000D7BA1F /* ViewModel.swift */; };
+		E06F306C267DBF8B00D7BA1F /* Pearl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F306B267DBF8B00D7BA1F /* Pearl.swift */; };
+		E06F306F267DBFA600D7BA1F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F306E267DBFA600D7BA1F /* Location.swift */; };
+		E06F3072267DC00800D7BA1F /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F3071267DC00800D7BA1F /* City.swift */; };
+		E06F3075267DC11200D7BA1F /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F3074267DC11200D7BA1F /* CityView.swift */; };
+		E06F307D267DC71D00D7BA1F /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F307C267DC71D00D7BA1F /* BackgroundView.swift */; };
+		E06F3081267DC9D700D7BA1F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F3080267DC9D700D7BA1F /* MapView.swift */; };
+		E06F308C267DCFFD00D7BA1F /* PearlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F308B267DCFFD00D7BA1F /* PearlView.swift */; };
+		E06F308F267DD0DF00D7BA1F /* PearlDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F308E267DD0DF00D7BA1F /* PearlDescription.swift */; };
+		E073EBDF267DE213005EF318 /* ToursListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073EBDE267DE213005EF318 /* ToursListView.swift */; };
+		E073EBE2267DE2CE005EF318 /* PearlsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073EBE1267DE2CE005EF318 /* PearlsListView.swift */; };
+		E073EBE5267DE3AA005EF318 /* CitiesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073EBE4267DE3AA005EF318 /* CitiesListView.swift */; };
+		E073EBE8267DE460005EF318 /* CityDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073EBE7267DE460005EF318 /* CityDescription.swift */; };
+		E073EBED267DF97F005EF318 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073EBEC267DF97F005EF318 /* TabBar.swift */; };
+		E073EBF3267E067B005EF318 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073EBF2267E067A005EF318 /* MenuView.swift */; };
+		E073EBF6267E0705005EF318 /* NeedGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073EBF5267E0705005EF318 /* NeedGuide.swift */; };
+		E073EBF9267E0771005EF318 /* AboutVisa.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073EBF8267E0771005EF318 /* AboutVisa.swift */; };
+		E073EBFF2680771A005EF318 /* LaunchScreenAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073EBFE26807719005EF318 /* LaunchScreenAnimation.swift */; };
+		E091D2852693071400466C13 /* BishkekTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091D2842693071400466C13 /* BishkekTime.swift */; };
+		E091D28B269319F000466C13 /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091D28A269319F000466C13 /* NavigationButton.swift */; };
+		E091D28E269325D900466C13 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091D28D269325D800466C13 /* BlurView.swift */; };
+		E091D2962693343700466C13 /* MenuButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091D2952693343600466C13 /* MenuButtonLabel.swift */; };
+		E091D299269336EA00466C13 /* NameOfList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091D298269336EA00466C13 /* NameOfList.swift */; };
+		E0B5A523268891CD00E516B6 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B5A522268891CD00E516B6 /* WeatherModel.swift */; };
+		E0B5A5262688920B00E516B6 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B5A5252688920B00E516B6 /* WeatherViewModel.swift */; };
+		E0B5A5292688928E00E516B6 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B5A5282688928E00E516B6 /* WeatherView.swift */; };
+		FAB0E61827A03EE100D72037 /* PearlButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0E61727A03EE100D72037 /* PearlButtonView.swift */; };
+		FAB0E61A27A1143600D72037 /* CitiesButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0E61927A1143600D72037 /* CitiesButtonView.swift */; };
+		FAB0E61C27A1154000D72037 /* TourActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0E61B27A1154000D72037 /* TourActionsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81A5C66C26F0BCA4002E07FF /* TextAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimation.swift; sourceTree = "<group>"; };
+		81A89BBB27EA7B5900AD66F9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AA186927AAD1730094BA04 /* SightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightView.swift; sourceTree = "<group>"; };
+		81AB614C26E61023006BDA2B /* ColorsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsList.swift; sourceTree = "<group>"; };
+		81AB614E26E610C4006BDA2B /* MapsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsButton.swift; sourceTree = "<group>"; };
+		81AB615126E611A2006BDA2B /* TourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourView.swift; sourceTree = "<group>"; };
+		81AB615326E612E6006BDA2B /* dataJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataJson.json; sourceTree = "<group>"; };
+		81AB615526E61364006BDA2B /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		81AB615726E61420006BDA2B /* TourDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourDescription.swift; sourceTree = "<group>"; };
+		81AB615926E6145A006BDA2B /* ContactButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactButton.swift; sourceTree = "<group>"; };
+		81AB615B26E6148A006BDA2B /* ListOfPictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPictures.swift; sourceTree = "<group>"; };
+		81AB615D26E614B1006BDA2B /* PearlCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlCategories.swift; sourceTree = "<group>"; };
+		81AB615F26E614E2006BDA2B /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
+		81AB616126E6155D006BDA2B /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		81C0118426CFA81C00AC116A /* ColorSchemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemesView.swift; sourceTree = "<group>"; };
+		81C0118626CFABB000AC116A /* Tour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tour.swift; sourceTree = "<group>"; };
+		81C0118826CFACF100AC116A /* toursData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = toursData.json; sourceTree = "<group>"; };
+		E0210304269408C400FCD75F /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
+		E06F3048267DBAC100D7BA1F /* GuideBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuideBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06F304B267DBAC100D7BA1F /* GuideBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideBookApp.swift; sourceTree = "<group>"; };
+		E06F304D267DBAC100D7BA1F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E06F304F267DBAC900D7BA1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E06F3052267DBACA00D7BA1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E06F3054267DBACA00D7BA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06F305F267DBE1100D7BA1F /* pearlsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pearlsData.json; sourceTree = "<group>"; };
+		E06F3062267DBE5700D7BA1F /* pearlsData1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pearlsData1.json; sourceTree = "<group>"; };
+		E06F3066267DBF1000D7BA1F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E06F306B267DBF8B00D7BA1F /* Pearl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pearl.swift; sourceTree = "<group>"; };
+		E06F306E267DBFA600D7BA1F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		E06F3071267DC00800D7BA1F /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		E06F3074267DC11200D7BA1F /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		E06F307C267DC71D00D7BA1F /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		E06F3080267DC9D700D7BA1F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E06F308B267DCFFD00D7BA1F /* PearlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlView.swift; sourceTree = "<group>"; };
+		E06F308E267DD0DF00D7BA1F /* PearlDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlDescription.swift; sourceTree = "<group>"; };
+		E073EBDE267DE213005EF318 /* ToursListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToursListView.swift; sourceTree = "<group>"; };
+		E073EBE1267DE2CE005EF318 /* PearlsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlsListView.swift; sourceTree = "<group>"; };
+		E073EBE4267DE3AA005EF318 /* CitiesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListView.swift; sourceTree = "<group>"; };
+		E073EBE7267DE460005EF318 /* CityDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDescription.swift; sourceTree = "<group>"; };
+		E073EBEC267DF97F005EF318 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		E073EBF2267E067A005EF318 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		E073EBF5267E0705005EF318 /* NeedGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedGuide.swift; sourceTree = "<group>"; };
+		E073EBF8267E0771005EF318 /* AboutVisa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVisa.swift; sourceTree = "<group>"; };
+		E073EBFE26807719005EF318 /* LaunchScreenAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenAnimation.swift; sourceTree = "<group>"; };
+		E091D2842693071400466C13 /* BishkekTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BishkekTime.swift; sourceTree = "<group>"; };
+		E091D28A269319F000466C13 /* NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
+		E091D28D269325D800466C13 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		E091D2952693343600466C13 /* MenuButtonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonLabel.swift; sourceTree = "<group>"; };
+		E091D298269336EA00466C13 /* NameOfList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameOfList.swift; sourceTree = "<group>"; };
+		E0B5A522268891CD00E516B6 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		E0B5A5252688920B00E516B6 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		E0B5A5282688928E00E516B6 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		FAB0E61727A03EE100D72037 /* PearlButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlButtonView.swift; sourceTree = "<group>"; };
+		FAB0E61927A1143600D72037 /* CitiesButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesButtonView.swift; sourceTree = "<group>"; };
+		FAB0E61B27A1154000D72037 /* TourActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourActionsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E06F3045267DBAC100D7BA1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81A5C66B26F0BC71002E07FF /* TextAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				81A5C66C26F0BCA4002E07FF /* TextAnimation.swift */,
+			);
+			path = TextAnimations;
+			sourceTree = "<group>";
+		};
+		81AB615026E61152006BDA2B /* DescriptionViews */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0E61427A02C5600D72037 /* TourComponents */,
+				E06F308E267DD0DF00D7BA1F /* PearlDescription.swift */,
+				E073EBE7267DE460005EF318 /* CityDescription.swift */,
+				81AB615726E61420006BDA2B /* TourDescription.swift */,
+			);
+			path = DescriptionViews;
+			sourceTree = "<group>";
+		};
+		81C0118326CFA7FB00AC116A /* Color Schemes */ = {
+			isa = PBXGroup;
+			children = (
+				81AB614C26E61023006BDA2B /* ColorsList.swift */,
+				81C0118426CFA81C00AC116A /* ColorSchemesView.swift */,
+			);
+			path = "Color Schemes";
+			sourceTree = "<group>";
+		};
+		E06F303F267DBAC100D7BA1F = {
+			isa = PBXGroup;
+			children = (
+				E06F304A267DBAC100D7BA1F /* GuideBook */,
+				E06F3049267DBAC100D7BA1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E06F3049267DBAC100D7BA1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E06F3048267DBAC100D7BA1F /* GuideBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E06F304A267DBAC100D7BA1F /* GuideBook */ = {
+			isa = PBXGroup;
+			children = (
+				E06F304B267DBAC100D7BA1F /* GuideBookApp.swift */,
+				E06F304D267DBAC100D7BA1F /* MainView.swift */,
+				E06F306A267DBF4B00D7BA1F /* Views */,
+				E06F3069267DBF3700D7BA1F /* Models */,
+				E06F3065267DBEFE00D7BA1F /* ViewModels */,
+				E06F3078267DC24000D7BA1F /* LaunchScreens */,
+				E06F305B267DBD7800D7BA1F /* Data */,
+				E0B5A5122688826F00E516B6 /* Weather */,
+				E06F304F267DBAC900D7BA1F /* Assets.xcassets */,
+				E06F3054267DBACA00D7BA1F /* Info.plist */,
+				E06F3051267DBACA00D7BA1F /* Preview Content */,
+			);
+			path = GuideBook;
+			sourceTree = "<group>";
+		};
+		E06F3051267DBACA00D7BA1F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E06F3052267DBACA00D7BA1F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E06F305B267DBD7800D7BA1F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				81AB615326E612E6006BDA2B /* dataJson.json */,
+				E06F305F267DBE1100D7BA1F /* pearlsData.json */,
+				E06F3062267DBE5700D7BA1F /* pearlsData1.json */,
+				81C0118826CFACF100AC116A /* toursData.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E06F3065267DBEFE00D7BA1F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E06F3066267DBF1000D7BA1F /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E06F3069267DBF3700D7BA1F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E06F3071267DC00800D7BA1F /* City.swift */,
+				E06F306B267DBF8B00D7BA1F /* Pearl.swift */,
+				81C0118626CFABB000AC116A /* Tour.swift */,
+				E06F306E267DBFA600D7BA1F /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E06F306A267DBF4B00D7BA1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E073EBF0267E0561005EF318 /* Menu */,
+				E073EBEB267DF965005EF318 /* TabView */,
+				E06F3089267DCD8A00D7BA1F /* ListViews */,
+				E06F3084267DCBF200D7BA1F /* SingleViews */,
+				81AB615026E61152006BDA2B /* DescriptionViews */,
+				E06F307F267DC97200D7BA1F /* Maps */,
+				E06F307B267DC6DC00D7BA1F /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E06F3078267DC24000D7BA1F /* LaunchScreens */ = {
+			isa = PBXGroup;
+			children = (
+				81A89BBB27EA7B5900AD66F9 /* LaunchScreen.storyboard */,
+				E073EBFE26807719005EF318 /* LaunchScreenAnimation.swift */,
+			);
+			path = LaunchScreens;
+			sourceTree = "<group>";
+		};
+		E06F307B267DC6DC00D7BA1F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				81A5C66B26F0BC71002E07FF /* TextAnimations */,
+				81C0118326CFA7FB00AC116A /* Color Schemes */,
+				E06F307C267DC71D00D7BA1F /* BackgroundView.swift */,
+				E091D2842693071400466C13 /* BishkekTime.swift */,
+				E091D28A269319F000466C13 /* NavigationButton.swift */,
+				E091D28D269325D800466C13 /* BlurView.swift */,
+				81AB614E26E610C4006BDA2B /* MapsButton.swift */,
+				E091D2952693343600466C13 /* MenuButtonLabel.swift */,
+				E091D298269336EA00466C13 /* NameOfList.swift */,
+				81AB615F26E614E2006BDA2B /* CustomDivider.swift */,
+				81AB615926E6145A006BDA2B /* ContactButton.swift */,
+				81AB616126E6155D006BDA2B /* MenuButton.swift */,
+				E0210304269408C400FCD75F /* DismissButton.swift */,
+				81AB615D26E614B1006BDA2B /* PearlCategories.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E06F307F267DC97200D7BA1F /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E06F3080267DC9D700D7BA1F /* MapView.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		E06F3084267DCBF200D7BA1F /* SingleViews */ = {
+			isa = PBXGroup;
+			children = (
+				E06F3074267DC11200D7BA1F /* CityView.swift */,
+				81AB615126E611A2006BDA2B /* TourView.swift */,
+				E06F308B267DCFFD00D7BA1F /* PearlView.swift */,
+				81AA186927AAD1730094BA04 /* SightView.swift */,
+			);
+			path = SingleViews;
+			sourceTree = "<group>";
+		};
+		E06F3089267DCD8A00D7BA1F /* ListViews */ = {
+			isa = PBXGroup;
+			children = (
+				E073EBDE267DE213005EF318 /* ToursListView.swift */,
+				E073EBE4267DE3AA005EF318 /* CitiesListView.swift */,
+				E073EBE1267DE2CE005EF318 /* PearlsListView.swift */,
+				81AB615B26E6148A006BDA2B /* ListOfPictures.swift */,
+			);
+			path = ListViews;
+			sourceTree = "<group>";
+		};
+		E073EBEB267DF965005EF318 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				E073EBEC267DF97F005EF318 /* TabBar.swift */,
+				81AB615526E61364006BDA2B /* TabButton.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		E073EBF0267E0561005EF318 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E073EBF2267E067A005EF318 /* MenuView.swift */,
+				E073EBF5267E0705005EF318 /* NeedGuide.swift */,
+				E073EBF8267E0771005EF318 /* AboutVisa.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		E0B5A5122688826F00E516B6 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				E0B5A522268891CD00E516B6 /* WeatherModel.swift */,
+				E0B5A5252688920B00E516B6 /* WeatherViewModel.swift */,
+				E0B5A5282688928E00E516B6 /* WeatherView.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		FAB0E61427A02C5600D72037 /* TourComponents */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0E61727A03EE100D72037 /* PearlButtonView.swift */,
+				FAB0E61B27A1154000D72037 /* TourActionsView.swift */,
+				FAB0E61927A1143600D72037 /* CitiesButtonView.swift */,
+			);
+			path = TourComponents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E06F3047267DBAC100D7BA1F /* GuideBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06F3057267DBACA00D7BA1F /* Build configuration list for PBXNativeTarget "GuideBook" */;
+			buildPhases = (
+				E06F3044267DBAC100D7BA1F /* Sources */,
+				E06F3045267DBAC100D7BA1F /* Frameworks */,
+				E06F3046267DBAC100D7BA1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuideBook;
+			productName = GuideBook;
+			productReference = E06F3048267DBAC100D7BA1F /* GuideBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E06F3040267DBAC100D7BA1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E06F3047267DBAC100D7BA1F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = E06F3043267DBAC100D7BA1F /* Build configuration list for PBXProject "GuideBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E06F303F267DBAC100D7BA1F;
+			productRefGroup = E06F3049267DBAC100D7BA1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E06F3047267DBAC100D7BA1F /* GuideBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E06F3046267DBAC100D7BA1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06F3053267DBACA00D7BA1F /* Preview Assets.xcassets in Resources */,
+				81A89BBC27EA7B5900AD66F9 /* LaunchScreen.storyboard in Resources */,
+				E06F3050267DBACA00D7BA1F /* Assets.xcassets in Resources */,
+				81C0118926CFACF100AC116A /* toursData.json in Resources */,
+				E06F3063267DBE5700D7BA1F /* pearlsData1.json in Resources */,
+				81AB615426E612E6006BDA2B /* dataJson.json in Resources */,
+				E06F3060267DBE1100D7BA1F /* pearlsData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E06F3044267DBAC100D7BA1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB614F26E610C4006BDA2B /* MapsButton.swift in Sources */,
+				81A5C66D26F0BCA5002E07FF /* TextAnimation.swift in Sources */,
+				E06F304E267DBAC100D7BA1F /* MainView.swift in Sources */,
+				E073EBE5267DE3AA005EF318 /* CitiesListView.swift in Sources */,
+				E091D28B269319F000466C13 /* NavigationButton.swift in Sources */,
+				E073EBF6267E0705005EF318 /* NeedGuide.swift in Sources */,
+				E091D2852693071400466C13 /* BishkekTime.swift in Sources */,
+				E0210305269408C400FCD75F /* DismissButton.swift in Sources */,
+				E0B5A5262688920B00E516B6 /* WeatherViewModel.swift in Sources */,
+				E073EBF9267E0771005EF318 /* AboutVisa.swift in Sources */,
+				81AB615826E61420006BDA2B /* TourDescription.swift in Sources */,
+				E06F308F267DD0DF00D7BA1F /* PearlDescription.swift in Sources */,
+				E091D2962693343700466C13 /* MenuButtonLabel.swift in Sources */,
+				E073EBED267DF97F005EF318 /* TabBar.swift in Sources */,
+				E091D28E269325D900466C13 /* BlurView.swift in Sources */,
+				E073EBDF267DE213005EF318 /* ToursListView.swift in Sources */,
+				81AB614D26E61023006BDA2B /* ColorsList.swift in Sources */,
+				E06F3067267DBF1000D7BA1F /* ViewModel.swift in Sources */,
+				81C0118726CFABB000AC116A /* Tour.swift in Sources */,
+				E073EBE2267DE2CE005EF318 /* PearlsListView.swift in Sources */,
+				81C0118526CFA81C00AC116A /* ColorSchemesView.swift in Sources */,
+				81AB616226E6155E006BDA2B /* MenuButton.swift in Sources */,
+				E073EBFF2680771A005EF318 /* LaunchScreenAnimation.swift in Sources */,
+				E091D299269336EA00466C13 /* NameOfList.swift in Sources */,
+				E0B5A523268891CD00E516B6 /* WeatherModel.swift in Sources */,
+				81AB615C26E6148A006BDA2B /* ListOfPictures.swift in Sources */,
+				81AB616026E614E2006BDA2B /* CustomDivider.swift in Sources */,
+				E0B5A5292688928E00E516B6 /* WeatherView.swift in Sources */,
+				E073EBF3267E067B005EF318 /* MenuView.swift in Sources */,
+				FAB0E61A27A1143600D72037 /* CitiesButtonView.swift in Sources */,
+				E06F307D267DC71D00D7BA1F /* BackgroundView.swift in Sources */,
+				E06F3072267DC00800D7BA1F /* City.swift in Sources */,
+				81AA186A27AAD1730094BA04 /* SightView.swift in Sources */,
+				E06F306F267DBFA600D7BA1F /* Location.swift in Sources */,
+				81AB615226E611A2006BDA2B /* TourView.swift in Sources */,
+				81AB615A26E6145A006BDA2B /* ContactButton.swift in Sources */,
+				81AB615E26E614B1006BDA2B /* PearlCategories.swift in Sources */,
+				E06F306C267DBF8B00D7BA1F /* Pearl.swift in Sources */,
+				FAB0E61827A03EE100D72037 /* PearlButtonView.swift in Sources */,
+				81AB615626E61364006BDA2B /* TabButton.swift in Sources */,
+				FAB0E61C27A1154000D72037 /* TourActionsView.swift in Sources */,
+				E06F3075267DC11200D7BA1F /* CityView.swift in Sources */,
+				E06F3081267DC9D700D7BA1F /* MapView.swift in Sources */,
+				E06F304C267DBAC100D7BA1F /* GuideBookApp.swift in Sources */,
+				E073EBE8267DE460005EF318 /* CityDescription.swift in Sources */,
+				E06F308C267DCFFD00D7BA1F /* PearlView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E06F3055267DBACA00D7BA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E06F3056267DBACA00D7BA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E06F3058267DBACA00D7BA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GuideBook/Preview Content\"";
+				DEVELOPMENT_TEAM = HY54SQK39V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GuideBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = anvarinho.GuideBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E06F3059267DBACA00D7BA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GuideBook/Preview Content\"";
+				DEVELOPMENT_TEAM = HY54SQK39V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GuideBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = anvarinho.GuideBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E06F3043267DBAC100D7BA1F /* Build configuration list for PBXProject "GuideBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06F3055267DBACA00D7BA1F /* Debug */,
+				E06F3056267DBACA00D7BA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06F3057267DBACA00D7BA1F /* Build configuration list for PBXNativeTarget "GuideBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06F3058267DBACA00D7BA1F /* Debug */,
+				E06F3059267DBACA00D7BA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E06F3040267DBAC100D7BA1F /* Project object */;
+}
