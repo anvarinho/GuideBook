@@ -23,7 +23,7 @@
 		81C0118526CFA81C00AC116A /* ColorSchemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0118426CFA81C00AC116A /* ColorSchemesView.swift */; };
 		81C0118726CFABB000AC116A /* Tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0118626CFABB000AC116A /* Tour.swift */; };
 		81C0118926CFACF100AC116A /* toursData.json in Resources */ = {isa = PBXBuildFile; fileRef = 81C0118826CFACF100AC116A /* toursData.json */; };
-		81F176BA27FA2B8A00BC783A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F176B927FA2B8A00BC783A /* LaunchScreen.storyboard */; };
+		81F176BE27FA30A300BC783A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F176BD27FA30A300BC783A /* LaunchScreen.storyboard */; };
 		E0210305269408C400FCD75F /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0210304269408C400FCD75F /* DismissButton.swift */; };
 		E06F304C267DBAC100D7BA1F /* GuideBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F304B267DBAC100D7BA1F /* GuideBookApp.swift */; };
 		E06F304E267DBAC100D7BA1F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F304D267DBAC100D7BA1F /* MainView.swift */; };
@@ -79,7 +79,7 @@
 		81C0118426CFA81C00AC116A /* ColorSchemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemesView.swift; sourceTree = "<group>"; };
 		81C0118626CFABB000AC116A /* Tour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tour.swift; sourceTree = "<group>"; };
 		81C0118826CFACF100AC116A /* toursData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = toursData.json; sourceTree = "<group>"; };
-		81F176B927FA2B8A00BC783A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../../Downloads/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81F176BD27FA30A300BC783A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0210304269408C400FCD75F /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
 		E06F3048267DBAC100D7BA1F /* GuideBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuideBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06F304B267DBAC100D7BA1F /* GuideBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideBookApp.swift; sourceTree = "<group>"; };
@@ -248,7 +248,7 @@
 		E06F3078267DC24000D7BA1F /* LaunchScreens */ = {
 			isa = PBXGroup;
 			children = (
-				81F176B927FA2B8A00BC783A /* LaunchScreen.storyboard */,
+				81F176BD27FA30A300BC783A /* LaunchScreen.storyboard */,
 				E073EBFE26807719005EF318 /* LaunchScreenAnimation.swift */,
 			);
 			path = LaunchScreens;
@@ -405,7 +405,7 @@
 				E06F3050267DBACA00D7BA1F /* Assets.xcassets in Resources */,
 				81C0118926CFACF100AC116A /* toursData.json in Resources */,
 				E06F3063267DBE5700D7BA1F /* pearlsData1.json in Resources */,
-				81F176BA27FA2B8A00BC783A /* LaunchScreen.storyboard in Resources */,
+				81F176BE27FA30A300BC783A /* LaunchScreen.storyboard in Resources */,
 				81AB615426E612E6006BDA2B /* dataJson.json in Resources */,
 				E06F3060267DBE1100D7BA1F /* pearlsData.json in Resources */,
 			);
