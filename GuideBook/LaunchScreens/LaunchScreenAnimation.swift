@@ -12,8 +12,7 @@ struct LaunchScreenAnimation: View {
     @State var endAnimation = false
     var body: some View {
         ZStack{
-            MainView()
-            
+            TabBar()
             ZStack{
                 Color(#colorLiteral(red: 1, green: 0.1607843137, blue: 0.1607843137, alpha: 1))
                 
@@ -31,11 +30,11 @@ struct LaunchScreenAnimation: View {
         }
     }
     func animateFlag(){
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
-            withAnimation(Animation.easeOut(duration: 0.45)){
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) {
+            withAnimation(Animation.easeOut(duration: 0.5)){
                 animate.toggle()
             }
-            withAnimation(Animation.easeOut(duration: 0.35)){
+            withAnimation(Animation.easeOut(duration: 0.4)){
                 endAnimation.toggle()
             }
         }

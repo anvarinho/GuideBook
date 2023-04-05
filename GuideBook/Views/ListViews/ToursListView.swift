@@ -56,6 +56,5 @@ struct ToursListView: View {
            // PearlDescription(selectedPearl: item)
             TourDescription(tour: item)
         }
-        
     }
 }
